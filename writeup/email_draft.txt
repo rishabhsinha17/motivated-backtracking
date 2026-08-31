@@ -1,0 +1,27 @@
+To: singh.adityak1@gmail.com
+Subject: Model Forensics SPAR take-home Rishabh Sinha
+
+Hi Aditya,
+
+My take-home is here (anyone-with-link): [GOOGLE DOC LINK]
+
+I worked on the Value Leakage / Donation Bet setting — specifically your "motivated
+backtracking" question. Short version: backtracking frequency is side-symmetric (null), but
+revision DIRECTION is motivated in 20/20 contrasts across the 10 models in your repo, and it
+carries through to a large answer-level bias (10/10 models, median +0.30 — I also filled in
+the final-answer judging your estimates.json was missing). Causally, suppressing bad-side
+backtracks via on-policy resampling moves outcomes only ~+4.5pp on GLM-5.2 and ~0 on
+DeepSeek, and denial sentences are inert — so the bias is distributed steering with no lie
+sentence. Second-turn probes show the model recognizes the bias in third person (~0.5-0.95)
+while first-person admission stays gated (model-specifically), and J-lens readouts on
+Qwen3.5-122B show moral content in the workspace at the denial/backtrack theater (0.12-0.44)
+but absent at the revision positions where the bias acts (0.01).
+
+Time: [X]h active on the doc's clock (resampling runs and replication excluded per your
+instructions). This is also my in-progress MATS application project, as you offered — the
+Sept 4 version adds robustness passes and the items in §7.
+
+Code: [REPO LINK, optional]
+
+Thanks for a genuinely fun problem,
+Rishabh

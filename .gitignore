@@ -1,0 +1,5 @@
+.env
+.venv/
+value-leakage/
+tfai_data/
+__pycache__/

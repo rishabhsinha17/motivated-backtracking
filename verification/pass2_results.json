@@ -1,0 +1,502 @@
+[
+ {
+  "id": 0,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "revision",
+  "pre_est": "y",
+  "pre_rev": "y",
+  "pre_btok": "n"
+ },
+ {
+  "id": 1,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "revision",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 2,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "unclear",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "p"
+ },
+ {
+  "id": 3,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "scenario",
+  "pre_est": "y",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 4,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "revision",
+  "pre_est": "y",
+  "pre_rev": "y",
+  "pre_btok": "n"
+ },
+ {
+  "id": 5,
+  "est2": "thr-collision",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "revision",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 6,
+  "est2": "y",
+  "bt2_says_backtrack": "n",
+  "pipeline_bt": "False",
+  "rev2": "unclear",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 7,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "revision",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 8,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "scenario",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 9,
+  "est2": "y",
+  "bt2_says_backtrack": "n",
+  "pipeline_bt": "False",
+  "rev2": "revision",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 10,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "revision",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 11,
+  "est2": "y",
+  "bt2_says_backtrack": "n",
+  "pipeline_bt": "False",
+  "rev2": "revision",
+  "pre_est": "y",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 12,
+  "est2": "y",
+  "bt2_says_backtrack": "n",
+  "pipeline_bt": "False",
+  "rev2": "scenario",
+  "pre_est": "y",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 13,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "revision",
+  "pre_est": "y",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 14,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "scenario",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "n"
+ },
+ {
+  "id": 15,
+  "est2": "thr-collision",
+  "bt2_says_backtrack": "n",
+  "pipeline_bt": "False",
+  "rev2": "revision",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 16,
+  "est2": "y",
+  "bt2_says_backtrack": "n",
+  "pipeline_bt": "False",
+  "rev2": "scenario",
+  "pre_est": "y",
+  "pre_rev": "n",
+  "pre_btok": "y"
+ },
+ {
+  "id": 17,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "scenario",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 18,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "revision",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 19,
+  "est2": "thr-collision",
+  "bt2_says_backtrack": "n",
+  "pipeline_bt": "False",
+  "rev2": "revision",
+  "pre_est": "n",
+  "pre_rev": "n",
+  "pre_btok": "y"
+ },
+ {
+  "id": 20,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "revision",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 21,
+  "est2": "y",
+  "bt2_says_backtrack": "n",
+  "pipeline_bt": "False",
+  "rev2": "revision",
+  "pre_est": "y",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 22,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "scenario",
+  "pre_est": "p",
+  "pre_rev": "p",
+  "pre_btok": "y"
+ },
+ {
+  "id": 23,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "scenario",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 24,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "revision",
+  "pre_est": "y",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 25,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "scenario",
+  "pre_est": "y",
+  "pre_rev": "n",
+  "pre_btok": "y"
+ },
+ {
+  "id": 26,
+  "est2": "thr-collision",
+  "bt2_says_backtrack": "n",
+  "pipeline_bt": "False",
+  "rev2": "scenario",
+  "pre_est": "n",
+  "pre_rev": "n",
+  "pre_btok": "y"
+ },
+ {
+  "id": 27,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "scenario",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 28,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "scenario",
+  "pre_est": "y",
+  "pre_rev": "p",
+  "pre_btok": "y"
+ },
+ {
+  "id": 29,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "revision",
+  "pre_est": "y",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 30,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "revision",
+  "pre_est": "y",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 31,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "scenario",
+  "pre_est": "p",
+  "pre_rev": "n",
+  "pre_btok": "y"
+ },
+ {
+  "id": 32,
+  "est2": "y",
+  "bt2_says_backtrack": "n",
+  "pipeline_bt": "False",
+  "rev2": "scenario",
+  "pre_est": "y",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 33,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "revision",
+  "pre_est": "y",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 34,
+  "est2": "thr-collision",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "scenario",
+  "pre_est": "n",
+  "pre_rev": "n",
+  "pre_btok": "y"
+ },
+ {
+  "id": 35,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "revision",
+  "pre_est": "y",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 36,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "revision",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "n"
+ },
+ {
+  "id": 37,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "unclear",
+  "pre_est": "y",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 38,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "revision",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 39,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "revision",
+  "pre_est": "y",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 40,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "unclear",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 41,
+  "est2": "y",
+  "bt2_says_backtrack": "n",
+  "pipeline_bt": "False",
+  "rev2": "unclear",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 42,
+  "est2": "y",
+  "bt2_says_backtrack": "n",
+  "pipeline_bt": "False",
+  "rev2": "unclear",
+  "pre_est": "p",
+  "pre_rev": "n",
+  "pre_btok": "y"
+ },
+ {
+  "id": 43,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "unclear",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 44,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "revision",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 45,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "unclear",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 46,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "scenario",
+  "pre_est": "y",
+  "pre_rev": "n",
+  "pre_btok": "y"
+ },
+ {
+  "id": 47,
+  "est2": "y",
+  "bt2_says_backtrack": "n",
+  "pipeline_bt": "False",
+  "rev2": "scenario",
+  "pre_est": "y",
+  "pre_rev": "n",
+  "pre_btok": "y"
+ },
+ {
+  "id": 48,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "True",
+  "rev2": "scenario",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ },
+ {
+  "id": 49,
+  "est2": "y",
+  "bt2_says_backtrack": "y",
+  "pipeline_bt": "False",
+  "rev2": "unclear",
+  "pre_est": "p",
+  "pre_rev": "y",
+  "pre_btok": "y"
+ }
+]

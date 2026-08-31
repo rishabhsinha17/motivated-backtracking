@@ -1,0 +1,17 @@
+[below_good armA] traces=15 jobs=418 (resuming past 32)
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/glm-5p2_below_good_armA.jsonl
+[below_good armAplain] traces=15 jobs=450 (resuming past 0)
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/glm-5p2_below_good_armAplain.jsonl
+[above_good armA] traces=15 jobs=450 (resuming past 0)
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/glm-5p2_above_good_armA.jsonl
+[above_good armAplain] traces=15 jobs=450 (resuming past 0)
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/glm-5p2_above_good_armAplain.jsonl
+[below_good armB] traces=15 jobs=0 (resuming past 450)
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/glm-5p2_below_good_armB.jsonl
+[below_good armBplain] traces=15 jobs=0 (resuming past 450)
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/glm-5p2_below_good_armBplain.jsonl
+[below_good armD] traces=15 jobs=447 (resuming past 3)
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/glm-5p2_below_good_armD.jsonl
+[below_good armDplain] traces=15 jobs=450 (resuming past 0)
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/glm-5p2_below_good_armDplain.jsonl
+ALL_ARMS_DONE

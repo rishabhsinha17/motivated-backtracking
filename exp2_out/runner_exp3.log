@@ -1,0 +1,9 @@
+[glm below_good] rollouts=40 jobs=200
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/confess_glm_below_good.jsonl
+[glm above_good] rollouts=40 jobs=200
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/confess_glm_above_good.jsonl
+[deepseek below_good] rollouts=40 jobs=200
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/confess_deepseek_below_good.jsonl
+[deepseek above_good] rollouts=40 jobs=200
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/confess_deepseek_above_good.jsonl
+EXP3_DONE

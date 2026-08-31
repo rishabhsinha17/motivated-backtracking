@@ -1,0 +1,5 @@
+[below_good armA] traces=15 jobs=450 (resuming past 0)
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/deepseek-v4-flash-0731_below_good_armA.jsonl
+[below_good armAplain] traces=15 jobs=450 (resuming past 0)
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/deepseek-v4-flash-0731_below_good_armAplain.jsonl
+RUNNER_C_DONE

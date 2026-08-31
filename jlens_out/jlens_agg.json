@@ -1,0 +1,110 @@
+{
+ "above_good|backtrack": {
+  "n": 992,
+  "p_value_tok": 0.117,
+  "ci": [
+   0.095,
+   0.137
+  ],
+  "p_moral_tok": 0.14
+ },
+ "above_good|control": {
+  "n": 156,
+  "p_value_tok": 0.122,
+  "ci": [
+   0.077,
+   0.167
+  ],
+  "p_moral_tok": 0.032
+ },
+ "above_good|denial": {
+  "n": 68,
+  "p_value_tok": 0.044,
+  "ci": [
+   0.0,
+   0.099
+  ],
+  "p_moral_tok": 0.441
+ },
+ "above_good|revision": {
+  "n": 757,
+  "p_value_tok": 0.341,
+  "ci": [
+   0.307,
+   0.372
+  ],
+  "p_moral_tok": 0.011
+ },
+ "baseline|backtrack": {
+  "n": 915,
+  "p_value_tok": 0.038,
+  "ci": [
+   0.026,
+   0.051
+  ],
+  "p_moral_tok": 0.001
+ },
+ "baseline|control": {
+  "n": 157,
+  "p_value_tok": 0.089,
+  "ci": [
+   0.051,
+   0.138
+  ],
+  "p_moral_tok": 0.0
+ },
+ "baseline|denial": {
+  "n": 18,
+  "p_value_tok": 0.111,
+  "ci": [
+   0.0,
+   0.353
+  ],
+  "p_moral_tok": 0.0
+ },
+ "baseline|revision": {
+  "n": 710,
+  "p_value_tok": 0.313,
+  "ci": [
+   0.276,
+   0.35
+  ],
+  "p_moral_tok": 0.0
+ },
+ "below_good|backtrack": {
+  "n": 971,
+  "p_value_tok": 0.137,
+  "ci": [
+   0.119,
+   0.157
+  ],
+  "p_moral_tok": 0.116
+ },
+ "below_good|control": {
+  "n": 149,
+  "p_value_tok": 0.087,
+  "ci": [
+   0.047,
+   0.128
+  ],
+  "p_moral_tok": 0.06
+ },
+ "below_good|denial": {
+  "n": 59,
+  "p_value_tok": 0.051,
+  "ci": [
+   0.0,
+   0.105
+  ],
+  "p_moral_tok": 0.441
+ },
+ "below_good|revision": {
+  "n": 688,
+  "p_value_tok": 0.27,
+  "ci": [
+   0.229,
+   0.31
+  ],
+  "p_moral_tok": 0.016
+ }
+}

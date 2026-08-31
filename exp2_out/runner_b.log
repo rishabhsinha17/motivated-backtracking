@@ -1,0 +1,4 @@
+[below_good armB] traces=15 jobs=450 (resuming past 0)
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/glm-5p2_below_good_armB.jsonl
+[below_good armBplain] traces=15 jobs=450 (resuming past 0)
+done -> /Users/a12345/open_source_contribution/spar-motivated-backtracking/analysis/../exp2_out/glm-5p2_below_good_armBplain.jsonl

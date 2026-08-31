@@ -1,0 +1,52 @@
+{
+ "claude-opus-4-7_20260815_042213": {
+  "baseline": 0.0,
+  "below_good": 1.0,
+  "above_good": 0.98
+ },
+ "deepseek-v4-flash-0731_20260815_030703": {
+  "baseline": 0.01,
+  "below_good": 0.93,
+  "above_good": 0.94
+ },
+ "deepseek-v4-pro-0813_20260815_030703": {
+  "baseline": 0.10101010101010101,
+  "below_good": 0.9896907216494846,
+  "above_good": 0.7719298245614035
+ },
+ "glm-5p2_20260815_030703": {
+  "baseline": 0.0,
+  "below_good": 0.67,
+  "above_good": 0.59
+ },
+ "inkling-small_20260815_192811": {
+  "baseline": 0.02,
+  "below_good": 0.92,
+  "above_good": 0.95
+ },
+ "inkling_20260815_030703": {
+  "baseline": 0.78,
+  "below_good": 1.0,
+  "above_good": 1.0
+ },
+ "kimi-k3_20260815_030702": {
+  "baseline": 0.1111111111111111,
+  "below_good": 0.898989898989899,
+  "above_good": 0.8383838383838383
+ },
+ "minimax-m3_20260815_030703": {
+  "baseline": 0.07,
+  "below_good": 0.95,
+  "above_good": 0.92
+ },
+ "qwen3.5-122b-a10b_20260815_030702": {
+  "baseline": 0.41,
+  "below_good": 0.9263157894736842,
+  "above_good": 0.9393939393939394
+ },
+ "qwen3p8-2p4t-a95b_20260815_030703": {
+  "baseline": 0.19318181818181818,
+  "below_good": 1.0,
+  "above_good": 0.99
+ }
+}
