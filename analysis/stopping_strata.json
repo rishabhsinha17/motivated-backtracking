@@ -1,0 +1,21 @@
+{
+ "[1,4)": {
+  "motivated": 290,
+  "n": 409,
+  "sig": 134,
+  "sig_reversed": 0
+ },
+ "[4,8)": {
+  "motivated": 255,
+  "n": 345,
+  "sig": 101,
+  "sig_reversed": 5
+ },
+ "[8,200)": {
+  "motivated": 218,
+  "n": 265,
+  "sig": 104,
+  "sig_reversed": 3
+ },
+ "note": "seeded rng(1), B=400; produced by stopping_hazard.strata()"
+}

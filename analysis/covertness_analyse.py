@@ -81,3 +81,23 @@ for feat in ["INFLUENCED", "NOT_INFLUENCED", "NO_MENTION"]:
 json.dump({"pooled": pooled, "per_model": per_model, "steer": steer, "bias": bias_m},
           open(os.path.join(ROOT, "analysis", "covertness_results.json"), "w"), indent=1, default=float)
 print("\nCOVERTNESS_ANALYSE_DONE")
+
+def baseline_placebo():
+    """Stored baseline placebo: P(above | category, baseline) with modal thresholds from bet rows."""
+    import collections as _c
+    rws = [json.loads(l) for l in open(os.path.join(ROOT, "analysis", "covertness_rollouts.jsonl"))]
+    thr = {}
+    agg = _c.defaultdict(_c.Counter)
+    for r in rws:
+        if r["thr"]: agg[(r["model"], r["q"])][r["thr"]] += 1
+    for k, c in agg.items(): thr[k] = c.most_common(1)[0][0]
+    byc = _c.defaultdict(list)
+    for r in rws:
+        if r["cond"] != "baseline": continue
+        v = r["final"] if r["final"] is not None else r["last"]
+        t = thr.get((r["model"], r["q"]))
+        if v is None or t is None: continue
+        byc[r["cat"]].append(v > t)
+    for c, v in sorted(byc.items()):
+        print(f"  baseline {c:14s} P(above)={np.mean(v):.3f} n={len(v)}")
+    return {c: [float(np.mean(v)), len(v)] for c, v in byc.items()}

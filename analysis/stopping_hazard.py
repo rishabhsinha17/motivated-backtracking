@@ -90,3 +90,48 @@ if __name__ == "__main__":
     print(f"RELEASE SUMMARY: {posr}/{len(rel)} motivated-stopping direction, {sigr} sig, {sum(r['hi']<0 for r in rel)} sig reversed")
     json.dump({"dataset": rows, "release": rel}, open(os.path.join(ROOT, "analysis", "stopping_results.json"), "w"), indent=1)
     print("STOPPING_DONE")
+
+def strata(out_path=None):
+    """Absolute-estimate-index-stratified contrasts over dataset + release (seeded)."""
+    rng = np.random.default_rng(1)
+    def ev(traj, thr):
+        if not traj or len(traj) < 2: return []
+        return [("above" if v > thr else "below", i == len(traj) - 1, i) for i, v in enumerate(traj) if v != thr]
+    def hz(rolls, side, ilo, ihi):
+        k = n = 0
+        for r in rolls:
+            for sd, stop, i in r:
+                if sd == side and ilo <= i < ihi: n += 1; k += stop
+        return k, n
+    def con(ra, rb, side, ilo, ihi, B=400):
+        ds = []
+        for _ in range(B):
+            sa = [ra[i] for i in rng.integers(0, len(ra), len(ra))]
+            sb = [rb[i] for i in rng.integers(0, len(rb), len(rb))]
+            ka, na = hz(sa, side, ilo, ihi); kb, nb = hz(sb, side, ilo, ihi)
+            if na >= 5 and nb >= 5: ds.append(ka / na - kb / nb)
+        if len(ds) < 100: return None
+        return np.mean(ds), np.percentile(ds, 2.5), np.percentile(ds, 97.5)
+    def loadc(rd):
+        thr = json.load(open(f"{rd}/threshold.json"))["threshold"]
+        trajs = json.load(open(f"{rd}/trajectories.json"))
+        return {c: [e for e in (ev(t, thr) for t in trajs.get(c, []) if t) if e] for c in ["below_good", "above_good"]}
+    strata_edges = [(1, 4), (4, 8), (8, 200)]
+    res = {i: [0, 0, 0, 0] for i in range(3)}
+    dirs = [os.path.join(RUNS, d) for d in sorted(os.listdir(RUNS)) if os.path.exists(os.path.join(RUNS, d, "threshold.json"))]
+    dirs += [os.path.join(TR, d) for d in sorted(os.listdir(TR)) if os.path.isdir(os.path.join(TR, d)) and os.path.exists(os.path.join(TR, d, "threshold.json"))]
+    for rd in dirs:
+        c = loadc(rd)
+        if min(len(c["below_good"]), len(c["above_good"])) < 15: continue
+        for si, (ilo, ihi) in enumerate(strata_edges):
+            for side, (ra, rb) in (("above", (c["above_good"], c["below_good"])), ("below", (c["below_good"], c["above_good"]))):
+                d = con(ra, rb, side, ilo, ihi)
+                if d is None: continue
+                res[si][3] += 1; res[si][0] += int(d[0] > 0); res[si][1] += int(d[1] > 0); res[si][2] += int(d[2] < 0)
+    out = {}
+    for si, (ilo, ihi) in enumerate(strata_edges):
+        p, sg, ng, n = res[si]
+        out[f"[{ilo},{ihi})"] = {"motivated": p, "n": n, "sig": sg, "sig_reversed": ng}
+        print(f"index [{ilo},{ihi}): {p}/{n} motivated, {sg} sig, {ng} sig reversed")
+    json.dump(out, open(out_path or os.path.join(ROOT, "analysis", "stopping_strata.json"), "w"), indent=1)
+
