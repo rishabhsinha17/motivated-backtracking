@@ -1,0 +1,752 @@
+[
+ {
+  "id": "inkling_20260815_030703|above_good|3|1",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|above_good|83|0",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|42|21",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "glm-5p2_20260815_030703|below_good|95|7",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling_20260815_030703|above_good|10|11",
+  "ds": "REVISION",
+  "sonnet": "RESTATEMENT"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|below_good|62|21",
+  "ds": "REVISION",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "qwen3p8-2p4t-a95b_20260815_030703|below_good|54|9",
+  "ds": "REVISION",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "inkling-small_20260815_192811|above_good|17|13",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|below_good|17|6",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|above_good|10|21",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling_20260815_030703|above_good|9|0",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|below_good|61|16",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "claude-opus-4-7_20260815_042213|below_good|49|1",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|70|14",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|78|3",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "claude-opus-4-7_20260815_042213|below_good|95|2",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "kimi-k3_20260815_030702|below_good|93|3",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "glm-5p2_20260815_030703|below_good|66|6",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "glm-5p2_20260815_030703|below_good|54|2",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|above_good|67|15",
+  "ds": "REVISION",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "glm-5p2_20260815_030703|above_good|1|0",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|79|24",
+  "ds": "REVISION",
+  "sonnet": "RESTATEMENT"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|70|11",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3p8-2p4t-a95b_20260815_030703|below_good|56|18",
+  "ds": "RESTATEMENT",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|21|2",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|below_good|73|6",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "deepseek-v4-flash-0731_20260815_030703|below_good|83|0",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "deepseek-v4-pro-0813_20260815_030703|above_good|19|2",
+  "ds": "REVISION",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|below_good|78|6",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "claude-opus-4-7_20260815_042213|above_good|69|6",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "kimi-k3_20260815_030702|below_good|61|0",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "inkling-small_20260815_192811|above_good|17|11",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|23|23",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "deepseek-v4-flash-0731_20260815_030703|above_good|26|14",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling_20260815_030703|below_good|36|6",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "minimax-m3_20260815_030703|below_good|20|10",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "deepseek-v4-pro-0813_20260815_030703|above_good|42|16",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|below_good|23|0",
+  "ds": "REVISION",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|88|15",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "claude-opus-4-7_20260815_042213|below_good|87|33",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "deepseek-v4-pro-0813_20260815_030703|above_good|40|1",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "deepseek-v4-pro-0813_20260815_030703|below_good|26|5",
+  "ds": "REVISION",
+  "sonnet": "RESTATEMENT"
+ },
+ {
+  "id": "glm-5p2_20260815_030703|below_good|41|13",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3p8-2p4t-a95b_20260815_030703|below_good|49|30",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "glm-5p2_20260815_030703|above_good|39|1",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "deepseek-v4-flash-0731_20260815_030703|below_good|59|0",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|98|0",
+  "ds": "REVISION",
+  "sonnet": "RESTATEMENT"
+ },
+ {
+  "id": "inkling-small_20260815_192811|above_good|66|19",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|33|9",
+  "ds": "RESTATEMENT",
+  "sonnet": "RESTATEMENT"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|17|14",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "claude-opus-4-7_20260815_042213|above_good|32|1",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|6|15",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|below_good|65|8",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "glm-5p2_20260815_030703|above_good|50|2",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "kimi-k3_20260815_030702|below_good|74|3",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "deepseek-v4-flash-0731_20260815_030703|below_good|74|48",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "inkling-small_20260815_192811|above_good|40|23",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling_20260815_030703|above_good|47|3",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "glm-5p2_20260815_030703|below_good|46|8",
+  "ds": "REVISION",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "deepseek-v4-pro-0813_20260815_030703|below_good|48|41",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|87|5",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "deepseek-v4-flash-0731_20260815_030703|above_good|94|15",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "inkling_20260815_030703|above_good|73|4",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "claude-opus-4-7_20260815_042213|above_good|10|8",
+  "ds": "RESTATEMENT",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|79|8",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|72|16",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "minimax-m3_20260815_030703|below_good|76|8",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling_20260815_030703|above_good|35|2",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|42|7",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "claude-opus-4-7_20260815_042213|above_good|3|16",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "deepseek-v4-flash-0731_20260815_030703|above_good|57|8",
+  "ds": "SCENARIO",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "glm-5p2_20260815_030703|below_good|20|3",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "deepseek-v4-flash-0731_20260815_030703|above_good|35|16",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "kimi-k3_20260815_030702|above_good|60|0",
+  "ds": "RESTATEMENT",
+  "sonnet": "RESTATEMENT"
+ },
+ {
+  "id": "inkling_20260815_030703|above_good|57|0",
+  "ds": "REVISION",
+  "sonnet": "RESTATEMENT"
+ },
+ {
+  "id": "kimi-k3_20260815_030702|below_good|30|4",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "minimax-m3_20260815_030703|above_good|77|1",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|above_good|13|12",
+  "ds": "RESTATEMENT",
+  "sonnet": "RESTATEMENT"
+ },
+ {
+  "id": "minimax-m3_20260815_030703|above_good|99|0",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "claude-opus-4-7_20260815_042213|above_good|42|5",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "claude-opus-4-7_20260815_042213|below_good|82|3",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|71|21",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "kimi-k3_20260815_030702|above_good|82|2",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|above_good|71|36",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "glm-5p2_20260815_030703|above_good|35|1",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "glm-5p2_20260815_030703|below_good|25|15",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "deepseek-v4-flash-0731_20260815_030703|above_good|9|12",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "qwen3p8-2p4t-a95b_20260815_030703|above_good|82|0",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "claude-opus-4-7_20260815_042213|above_good|97|0",
+  "ds": "RESTATEMENT",
+  "sonnet": "RESTATEMENT"
+ },
+ {
+  "id": "qwen3p8-2p4t-a95b_20260815_030703|above_good|97|25",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3p8-2p4t-a95b_20260815_030703|below_good|11|11",
+  "ds": "REVISION",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "deepseek-v4-pro-0813_20260815_030703|below_good|53|8",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|77|5",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "qwen3p8-2p4t-a95b_20260815_030703|above_good|33|22",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "deepseek-v4-pro-0813_20260815_030703|above_good|95|11",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling_20260815_030703|above_good|90|6",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|71|13",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3p8-2p4t-a95b_20260815_030703|above_good|63|2",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "deepseek-v4-flash-0731_20260815_030703|above_good|55|12",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|7|18",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "minimax-m3_20260815_030703|above_good|62|14",
+  "ds": "REVISION",
+  "sonnet": "RESTATEMENT"
+ },
+ {
+  "id": "kimi-k3_20260815_030702|below_good|7|1",
+  "ds": "RESTATEMENT",
+  "sonnet": "RESTATEMENT"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|below_good|95|43",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "deepseek-v4-pro-0813_20260815_030703|below_good|28|7",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|58|18",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|28|15",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "kimi-k3_20260815_030702|below_good|83|11",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling_20260815_030703|below_good|41|24",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "kimi-k3_20260815_030702|above_good|64|1",
+  "ds": "REVISION",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "qwen3p8-2p4t-a95b_20260815_030703|below_good|3|1",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "inkling_20260815_030703|above_good|79|9",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "kimi-k3_20260815_030702|above_good|27|1",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "deepseek-v4-flash-0731_20260815_030703|above_good|51|15",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|87|8",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|above_good|10|3",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|below_good|1|33",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|15|33",
+  "ds": "SCENARIO",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3p8-2p4t-a95b_20260815_030703|below_good|36|16",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|67|1",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "inkling-small_20260815_192811|above_good|10|20",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling_20260815_030703|below_good|88|6",
+  "ds": "REVISION",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "qwen3p8-2p4t-a95b_20260815_030703|above_good|33|7",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "inkling-small_20260815_192811|above_good|76|6",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|22|14",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling_20260815_030703|below_good|96|16",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|above_good|34|1",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "kimi-k3_20260815_030702|below_good|94|18",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "deepseek-v4-flash-0731_20260815_030703|above_good|43|3",
+  "ds": "REVISION",
+  "sonnet": "RESTATEMENT"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|22|28",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|below_good|17|23",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "glm-5p2_20260815_030703|below_good|91|8",
+  "ds": "SCENARIO",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|21|7",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "claude-opus-4-7_20260815_042213|above_good|55|4",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|33|16",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "glm-5p2_20260815_030703|above_good|47|3",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "kimi-k3_20260815_030702|above_good|99|2",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|83|22",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|54|19",
+  "ds": "REVISION",
+  "sonnet": "RESTATEMENT"
+ },
+ {
+  "id": "deepseek-v4-flash-0731_20260815_030703|above_good|6|3",
+  "ds": "REVISION",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|49|2",
+  "ds": "REVISION",
+  "sonnet": "RESTATEMENT"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|below_good|12|13",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|below_good|36|10",
+  "ds": "REVISION",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "glm-5p2_20260815_030703|below_good|67|1",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "minimax-m3_20260815_030703|below_good|74|0",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|above_good|79|4",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "deepseek-v4-pro-0813_20260815_030703|above_good|30|2",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling-small_20260815_192811|below_good|39|24",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "inkling_20260815_030703|above_good|6|6",
+  "ds": "REVISION",
+  "sonnet": "REVISION"
+ },
+ {
+  "id": "qwen3.5-122b-a10b_20260815_030702|above_good|97|6",
+  "ds": "SCENARIO",
+  "sonnet": "SCENARIO"
+ },
+ {
+  "id": "qwen3p8-2p4t-a95b_20260815_030703|above_good|99|2",
+  "ds": "REVISION",
+  "sonnet": "SCENARIO"
+ }
+]

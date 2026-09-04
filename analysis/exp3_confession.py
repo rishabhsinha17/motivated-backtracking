@@ -100,21 +100,41 @@ def qwen_fresh(probe):
               "messages": [{"role": "user", "content": probe}]})
     return d["choices"][0]["message"]["content"]
 
+OR_DS = "deepseek/deepseek-v4-flash-0731"
+def deepseek_or_second_turn(user1, content1, probe):
+    d = http("https://openrouter.ai/api/v1/chat/completions", os.environ["OPENROUTER_API_KEY"],
+             {"model": OR_DS, "max_tokens": 4000, "temperature": 1.0,
+              "messages": [{"role": "user", "content": user1}, {"role": "assistant", "content": content1},
+                           {"role": "user", "content": probe}]})
+    return d["choices"][0]["message"]["content"] or ""
+def deepseek_or_fresh(probe):
+    d = http("https://openrouter.ai/api/v1/chat/completions", os.environ["OPENROUTER_API_KEY"],
+             {"model": OR_DS, "max_tokens": 4000, "temperature": 1.0, "messages": [{"role": "user", "content": probe}]})
+    return d["choices"][0]["message"]["content"] or ""
+
 def parse(resp):
+    """LAST verdict tag in the post-reasoning text. DeepSeek echoes the instruction's example tags
+    inside its reasoning, so the first tag is unreliable (found Sept 2 via adversarial review)."""
+    tail = resp.split("</think>")[-1] if "</think>" in resp else resp
+    tail = tail.split("<|Assistant|>")[-1] if "<|Assistant|>" in tail else tail
+    tags = TAG.findall(tail) or TAG.findall(resp)
+    return tags[-1].lower() if tags else None
+
+def parse_first(resp):
     tail = resp.split("</think>")[-1] if "</think>" in resp else resp
     m = TAG.search(tail) or TAG.search(resp)
     return m.group(1).lower() if m else None
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", choices=["glm", "qwen", "deepseek"], required=True)
+    ap.add_argument("--model", choices=["glm", "qwen", "deepseek", "deepseek_or"], required=True)
     ap.add_argument("--cond", default="below_good")
     ap.add_argument("--n", type=int, default=40)
     ap.add_argument("--conc", type=int, default=20)
     ap.add_argument("--smoke", action="store_true")
     a = ap.parse_args()
     run = {"glm": "glm-5p2_20260815_030703", "qwen": "qwen3.5-122b-a10b_20260815_030702",
-           "deepseek": "deepseek-v4-flash-0731_20260815_030703"}[a.model]
+           "deepseek": "deepseek-v4-flash-0731_20260815_030703", "deepseek_or": "deepseek-v4-flash-0731_20260815_030703"}[a.model]
     data = json.load(open(os.path.join(RUNS, run, f"{a.cond}.json")))
     user1, rows = data["prompt"], data["rows"]
     outfile = os.path.join(OUT, f"confess_{a.model}_{a.cond}.jsonl")
@@ -156,13 +176,14 @@ def main():
                 if arm == "P":
                     probe = P_TMPL.format(q=user1, think=think[:6000], ans=content)
                     resp = {"glm": glm_fresh, "qwen": qwen_fresh,
-                            "deepseek": deepseek_fresh}[a.model](probe)
+                            "deepseek": deepseek_fresh, "deepseek_or": deepseek_or_fresh}[a.model](probe)
                 else:
                     probe = ARMS[arm]
                     resp = {"glm": lambda: glm_second_turn(user1, think, content, probe),
                             "qwen": lambda: qwen_second_turn(user1, content, probe),
-                            "deepseek": lambda: deepseek_second_turn(user1, think, content, probe)}[a.model]()
-                rec = {"i": i, "arm": arm, "verdict": parse(resp), "tail": resp[-200:]}
+                            "deepseek": lambda: deepseek_second_turn(user1, think, content, probe),
+                            "deepseek_or": lambda: deepseek_or_second_turn(user1, content, probe)}[a.model]()
+                rec = {"i": i, "arm": arm, "verdict": parse(resp), "verdict_first": parse_first(resp), "tail": resp[-300:], "text": resp}
                 with lock:
                     with open(outfile, "a") as f:
                         f.write(json.dumps(rec) + "\n")

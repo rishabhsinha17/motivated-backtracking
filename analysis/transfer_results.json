@@ -1,0 +1,3170 @@
+[
+ {
+  "model": "claude-fable-5-high",
+  "question": "bridge",
+  "side": "above",
+  "d": -0.11629549397088663,
+  "lo": -0.264861824054106,
+  "hi": 0.0372453324598755
+ },
+ {
+  "model": "claude-fable-5-high",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.01715832527537668,
+  "lo": -0.13222588045802752,
+  "hi": 0.1692049319727891
+ },
+ {
+  "model": "claude-fable-5-high",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.014572261197503253,
+  "lo": -0.21746761204481793,
+  "hi": 0.2350877192982455
+ },
+ {
+  "model": "claude-fable-5-high",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.07009737071677415,
+  "lo": -0.14751925770308086,
+  "hi": 0.2727840909090909
+ },
+ {
+  "model": "claude-fable-5-high",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.178701163190811,
+  "lo": 0.0,
+  "hi": 0.4
+ },
+ {
+  "model": "claude-fable-5-high",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.3390992727465823,
+  "lo": 0.17718453843453855,
+  "hi": 0.4903596901602883
+ },
+ {
+  "model": "claude-fable-5-high",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.2527945952597311,
+  "lo": 0.11111111111111116,
+  "hi": 0.37678571428571433
+ },
+ {
+  "model": "claude-fable-5-high",
+  "question": "orangecars",
+  "side": "below",
+  "d": -0.11105798421144936,
+  "lo": -0.3064826302729528,
+  "hi": 0.0893452380952381
+ },
+ {
+  "model": "claude-fable-5-high",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.06975976254810838,
+  "lo": -0.0834518151481444,
+  "hi": 0.1993951612903225
+ },
+ {
+  "model": "claude-fable-5-high",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.19311368958089717,
+  "lo": -0.0,
+  "hi": 0.45454545454545453
+ },
+ {
+  "model": "claude-fable-5-high",
+  "question": "zills",
+  "side": "above",
+  "d": 0.01825411613586082,
+  "lo": -0.3242532467532467,
+  "hi": 0.3118506493506492
+ },
+ {
+  "model": "claude-fable-5-high",
+  "question": "zills",
+  "side": "below",
+  "d": -0.06434174095377235,
+  "lo": -0.40022727272727254,
+  "hi": 0.3334821428571429
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.029733060895580806,
+  "lo": -0.08893382352941177,
+  "hi": 0.15172781385281386
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.12871272054303654,
+  "lo": 0.049236898040299584,
+  "hi": 0.20448825838021412
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.04813263867684759,
+  "lo": -0.025274448095524614,
+  "hi": 0.11540697674418605
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.09816189822946095,
+  "lo": -0.023214092578466444,
+  "hi": 0.20957915481256556
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.1663411204677158,
+  "lo": -0.11434817170111283,
+  "hi": 0.4117966751918158
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.109487020918661,
+  "lo": -0.04281294387067264,
+  "hi": 0.2827701346244686
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.06638059466407789,
+  "lo": -0.0050174343452796056,
+  "hi": 0.1359420579420579
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.09654185470756876,
+  "lo": 0.0014926046176046708,
+  "hi": 0.1933481691510249
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.07349230921865382,
+  "lo": -0.014582399207265069,
+  "hi": 0.15409190965933095
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.1321156043953259,
+  "lo": 0.021793300653594833,
+  "hi": 0.24148224919919162
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "tbc",
+  "side": "above",
+  "d": -0.015401783741051535,
+  "lo": -0.11881078198424191,
+  "hi": 0.0833982338677859
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.021030881935392313,
+  "lo": -0.08925599759742782,
+  "hi": 0.1294058892707262
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "turns",
+  "side": "above",
+  "d": -0.0026113668713258565,
+  "lo": -0.11617884632827052,
+  "hi": 0.0976942355889724
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "turns",
+  "side": "below",
+  "d": -0.00789549141113867,
+  "lo": -0.11823952121803379,
+  "hi": 0.09865137599012917
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.02305670632979429,
+  "lo": -0.06615838690824076,
+  "hi": 0.09821597324496807
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.18488881196589305,
+  "lo": 0.07960991330723481,
+  "hi": 0.2862024290276571
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "zills",
+  "side": "above",
+  "d": 0.03096539075001488,
+  "lo": -0.06714186733600014,
+  "hi": 0.13656194398247146
+ },
+ {
+  "model": "claude-opus-4.1",
+  "question": "zills",
+  "side": "below",
+  "d": -0.021164326273250884,
+  "lo": -0.11460292751388637,
+  "hi": 0.07041087710364229
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.05816232732690028,
+  "lo": 0.0018426340769614653,
+  "hi": 0.11508967971281787
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.048182269414881546,
+  "lo": -0.007915434743156063,
+  "hi": 0.10944962585311149
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.039748634603775215,
+  "lo": -0.03486018677544012,
+  "hi": 0.11601306082274448
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "crochet",
+  "side": "below",
+  "d": -0.017315137122964782,
+  "lo": -0.07726518980055212,
+  "hi": 0.03304686838055487
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.021047139521583484,
+  "lo": -0.049497456101820915,
+  "hi": 0.09134896789510671
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.05110859304430079,
+  "lo": -0.03203612493100589,
+  "hi": 0.1286730775012025
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.18127654563833318,
+  "lo": 0.10894078531188865,
+  "hi": 0.2548898464325088
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.14932768577696065,
+  "lo": 0.08820309652382811,
+  "hi": 0.20961451154915425
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "orangecars",
+  "side": "above",
+  "d": -0.029723580482981193,
+  "lo": -0.08616209009775092,
+  "hi": 0.028547450775449283
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.017737197440204876,
+  "lo": -0.07459055588676851,
+  "hi": 0.10885182700664797
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "tbc",
+  "side": "above",
+  "d": -0.0396484513824431,
+  "lo": -0.14535384615384625,
+  "hi": 0.06004116818956173
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "tbc",
+  "side": "below",
+  "d": -0.07190524175146383,
+  "lo": -0.2001467054600197,
+  "hi": 0.05379645514987212
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "turns",
+  "side": "above",
+  "d": 0.25324878506213433,
+  "lo": 0.15276315407819935,
+  "hi": 0.34760201592239237
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "turns",
+  "side": "below",
+  "d": 0.18047538043866487,
+  "lo": 0.0957535682918242,
+  "hi": 0.2643615704683666
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "windowdays",
+  "side": "above",
+  "d": -0.044294035498926715,
+  "lo": -0.1738234342650104,
+  "hi": 0.0865858088271882
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "windowdays",
+  "side": "below",
+  "d": -0.008948305610174356,
+  "lo": -0.06518512594034034,
+  "hi": 0.041343147998879906
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "zills",
+  "side": "above",
+  "d": 0.05100586845485494,
+  "lo": -0.05122085457451308,
+  "hi": 0.14787429613972375
+ },
+ {
+  "model": "claude-opus-4.5-high",
+  "question": "zills",
+  "side": "below",
+  "d": 0.01122056372434848,
+  "lo": -0.07139495747833285,
+  "hi": 0.08524149014246958
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.23513376097785843,
+  "lo": 0.16808652396878654,
+  "hi": 0.29936406443440633
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.1894402009101971,
+  "lo": 0.11274480515610043,
+  "hi": 0.26090978832219097
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.1747377280641688,
+  "lo": 0.11287955559257407,
+  "hi": 0.2400535470621178
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.2033587912115076,
+  "lo": 0.14282509534632215,
+  "hi": 0.264566242130742
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.13037502189537706,
+  "lo": 0.026387195121951174,
+  "hi": 0.22353328173374612
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.13873165515077157,
+  "lo": 0.0644786172995918,
+  "hi": 0.20615626821468513
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.2815955256866625,
+  "lo": 0.20799889848683423,
+  "hi": 0.33994840312656033
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.29864026813333533,
+  "lo": 0.22325216357635252,
+  "hi": 0.38012057605910515
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.24709855446285814,
+  "lo": 0.18334269444529908,
+  "hi": 0.30802452536570174
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.23329821797027034,
+  "lo": 0.1524859839151904,
+  "hi": 0.30657172582831776
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.16226092266368514,
+  "lo": 0.08731708544610388,
+  "hi": 0.23853572625720332
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.2438797350087902,
+  "lo": 0.17043607734120983,
+  "hi": 0.31928320301199065
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "turns",
+  "side": "above",
+  "d": 0.2184990472417651,
+  "lo": 0.15749642524983085,
+  "hi": 0.27829962352033544
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "turns",
+  "side": "below",
+  "d": 0.2266501951499186,
+  "lo": 0.14169162204109922,
+  "hi": 0.30754661165374186
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.24144826676194975,
+  "lo": 0.16822263976012947,
+  "hi": 0.31333917745957945
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.17762467391835238,
+  "lo": 0.11128577492117389,
+  "hi": 0.24500424635136211
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "zills",
+  "side": "above",
+  "d": 0.21302449782836583,
+  "lo": 0.14881455785685974,
+  "hi": 0.27319067236064726
+ },
+ {
+  "model": "claude-opus-4.6-high",
+  "question": "zills",
+  "side": "below",
+  "d": 0.14245507236194047,
+  "lo": 0.05502076975417724,
+  "hi": 0.23269212995288263
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.11022603201050017,
+  "lo": 0.037510101550146446,
+  "hi": 0.17909547891299543
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.18175447687871102,
+  "lo": 0.11157476792896337,
+  "hi": 0.25229031808611097
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.2395096309277232,
+  "lo": 0.17969134583461863,
+  "hi": 0.29568110033693173
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.2952667264084409,
+  "lo": 0.19623141865522079,
+  "hi": 0.3959351252462707
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.02654467669244542,
+  "lo": -0.05992183080995968,
+  "hi": 0.11364546783625734
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.09437452034640088,
+  "lo": -0.011806261106822903,
+  "hi": 0.1865996402671495
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.2739285592168679,
+  "lo": 0.18013367011379863,
+  "hi": 0.3691442510248774
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.2797843550705099,
+  "lo": 0.2037051624253022,
+  "hi": 0.36436271199227743
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.14945875456582616,
+  "lo": 0.08553773979577475,
+  "hi": 0.21026832554418762
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.054884042917574274,
+  "lo": -0.037447766683360376,
+  "hi": 0.16247204654462302
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.05556858277987822,
+  "lo": -0.055781863064471686,
+  "hi": 0.16832630219543696
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.1264811439057312,
+  "lo": 0.03184685018721765,
+  "hi": 0.21956221530300407
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "turns",
+  "side": "above",
+  "d": 0.19872230340159713,
+  "lo": 0.10205051010474746,
+  "hi": 0.30098024050384486
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "turns",
+  "side": "below",
+  "d": 0.26891546115803416,
+  "lo": 0.1501417493296236,
+  "hi": 0.38385737673343606
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.22232879741181072,
+  "lo": 0.11294568005549849,
+  "hi": 0.33200258302583024
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.220121278883385,
+  "lo": 0.15029586908462836,
+  "hi": 0.28904221687181186
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "zills",
+  "side": "above",
+  "d": 0.12384250528134512,
+  "lo": 0.016007055481610757,
+  "hi": 0.2169094786210254
+ },
+ {
+  "model": "claude-opus-4.6-max",
+  "question": "zills",
+  "side": "below",
+  "d": 0.09423797171839833,
+  "lo": 0.00791912852036789,
+  "hi": 0.17198241633579123
+ },
+ {
+  "model": "claude-opus-4.7-high",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.3839379229666423,
+  "lo": 0.23076923076923073,
+  "hi": 0.5518199233716474
+ },
+ {
+  "model": "claude-opus-4.7-high",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.338918274672312,
+  "lo": 0.18167638741604808,
+  "hi": 0.4713793228977066
+ },
+ {
+  "model": "claude-opus-4.7-high",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.13826247076892342,
+  "lo": 0.05401849217638692,
+  "hi": 0.2381211180124224
+ },
+ {
+  "model": "claude-opus-4.7-high",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.26077859601638304,
+  "lo": 0.11665650406504063,
+  "hi": 0.3918378040365706
+ },
+ {
+  "model": "claude-opus-4.7-high",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.06922875035269799,
+  "lo": -0.07454580745341607,
+  "hi": 0.2234469696969696
+ },
+ {
+  "model": "claude-opus-4.7-high",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.21840423713520182,
+  "lo": 0.06482776089159067,
+  "hi": 0.3751422197356848
+ },
+ {
+  "model": "claude-opus-4.7-high",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.016747041210368498,
+  "lo": -0.16428997726411518,
+  "hi": 0.20569063289651518
+ },
+ {
+  "model": "claude-opus-4.7-high",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.2875226319867239,
+  "lo": 0.07210735171261488,
+  "hi": 0.5119332298136645
+ },
+ {
+  "model": "claude-opus-4.7-high",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.1450088167814808,
+  "lo": -0.010739942528735594,
+  "hi": 0.301657509157509
+ },
+ {
+  "model": "claude-opus-4.7-high",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.7612767038241397,
+  "lo": 0.6414716981132076,
+  "hi": 0.8718085106382979
+ },
+ {
+  "model": "claude-opus-4.7-high",
+  "question": "turns",
+  "side": "below",
+  "d": 0.47344994742188407,
+  "lo": 0.2224706744868036,
+  "hi": 0.6774193548387096
+ },
+ {
+  "model": "claude-opus-4.7-high",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.1297297907017969,
+  "lo": -0.047842470760233916,
+  "hi": 0.266875
+ },
+ {
+  "model": "claude-opus-4.7-high",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.5607492191352088,
+  "lo": 0.4576271186440678,
+  "hi": 0.6615384615384615
+ },
+ {
+  "model": "claude-opus-4.7-high",
+  "question": "zills",
+  "side": "above",
+  "d": 0.16299754250794224,
+  "lo": 0.0357142857142857,
+  "hi": 0.29729729729729726
+ },
+ {
+  "model": "claude-opus-4.7-high",
+  "question": "zills",
+  "side": "below",
+  "d": 0.18866560426791462,
+  "lo": -0.10020053475935829,
+  "hi": 0.5
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.144077494916952,
+  "lo": 0.0558845106071714,
+  "hi": 0.23853998724355627
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.14664655932635923,
+  "lo": 0.05637387829558193,
+  "hi": 0.2313739202606887
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.08299185011286454,
+  "lo": -0.0010634961141442682,
+  "hi": 0.17039604666640845
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.12608127451729353,
+  "lo": 0.0398647540635607,
+  "hi": 0.21253376888238024
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.03439869369596933,
+  "lo": -0.11100782361308675,
+  "hi": 0.19944252254677608
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.12254871006476227,
+  "lo": -0.004588078108941392,
+  "hi": 0.2469076166997503
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.09617520606803957,
+  "lo": 0.036939135654310694,
+  "hi": 0.1590515719801434
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.04229936148595778,
+  "lo": -0.04862019562876501,
+  "hi": 0.134773177445079
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "orangecars",
+  "side": "above",
+  "d": -0.000849881755842044,
+  "lo": -0.06422394758756049,
+  "hi": 0.06280277277317506
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.07164137362205007,
+  "lo": -0.0068763102725366435,
+  "hi": 0.15628980616177374
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.11174351435307718,
+  "lo": -0.0062469728205356975,
+  "hi": 0.22347055686569758
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.11335738032905787,
+  "lo": 0.023299995392522546,
+  "hi": 0.21222654010179126
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "turns",
+  "side": "above",
+  "d": 0.05620417289478657,
+  "lo": -0.17708163265306123,
+  "hi": 0.41360021208907743
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "turns",
+  "side": "below",
+  "d": 0.15692226710765078,
+  "lo": 0.0485492189210892,
+  "hi": 0.25438635305076857
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.259623886176718,
+  "lo": 0.18605040363583142,
+  "hi": 0.3361712453576472
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.31387368692081835,
+  "lo": 0.20652558022447362,
+  "hi": 0.4178847893359578
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "zills",
+  "side": "above",
+  "d": -0.04112359056849667,
+  "lo": -0.2452576922268392,
+  "hi": 0.19249502789231127
+ },
+ {
+  "model": "claude-opus-4.7-max",
+  "question": "zills",
+  "side": "below",
+  "d": 0.06630541624339191,
+  "lo": -0.0555203823953824,
+  "hi": 0.18054509408451436
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.2388854833039649,
+  "lo": 0.074213778135611,
+  "hi": 0.4038563829787234
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.3797560572271631,
+  "lo": 0.25844504323850104,
+  "hi": 0.5166531039293187
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.11982387123036022,
+  "lo": 0.048387096774193505,
+  "hi": 0.19695220503347954
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.1945918645738431,
+  "lo": 0.052613798008534864,
+  "hi": 0.3358173520600847
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "giraffes",
+  "side": "above",
+  "d": -0.03995227476902332,
+  "lo": -0.296969696969697,
+  "hi": 0.22356617647058818
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.20560293113912698,
+  "lo": -0.0,
+  "hi": 0.5
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.08455489432945307,
+  "lo": -0.037215195852836294,
+  "hi": 0.2090063375388662
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.2348067108928533,
+  "lo": 0.08768774442144012,
+  "hi": 0.38778344671201814
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.23124747515412292,
+  "lo": 0.06855317884729659,
+  "hi": 0.38102824463118573
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.2702725561174134,
+  "lo": 0.054046717171717294,
+  "hi": 0.4938125204315136
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.030933083496134203,
+  "lo": 0.0,
+  "hi": 0.09762195121951212
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.5038142364211826,
+  "lo": 0.2741905615292712,
+  "hi": 0.7283683712121212
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "turns",
+  "side": "below",
+  "d": 0.23137231391090005,
+  "lo": -0.062225672877846694,
+  "hi": 0.5000757575757576
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.1669848446131951,
+  "lo": 0.06149777041799249,
+  "hi": 0.26866751525623117
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.3450085398968682,
+  "lo": 0.21685255165415773,
+  "hi": 0.469265006124949
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "zills",
+  "side": "above",
+  "d": 0.0940086596387517,
+  "lo": 0.0,
+  "hi": 0.28084415584415584
+ },
+ {
+  "model": "claude-opus-4.7-xhigh",
+  "question": "zills",
+  "side": "below",
+  "d": 0.5325891505598604,
+  "lo": 0.3125,
+  "hi": 0.75
+ },
+ {
+  "model": "claude-opus-4.8-high",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.15854185416546868,
+  "lo": 0.04870509607351718,
+  "hi": 0.2576190476190476
+ },
+ {
+  "model": "claude-opus-4.8-high",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.20661059082250888,
+  "lo": 0.08383988513845866,
+  "hi": 0.33513560829737304
+ },
+ {
+  "model": "claude-opus-4.8-high",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.19445386257017197,
+  "lo": 0.10412660256410253,
+  "hi": 0.3023255813953488
+ },
+ {
+  "model": "claude-opus-4.8-high",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.3301869271457051,
+  "lo": 0.15301406926406932,
+  "hi": 0.512184065934066
+ },
+ {
+  "model": "claude-opus-4.8-high",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.29009026536229715,
+  "lo": 0.10908306622110077,
+  "hi": 0.450179211469534
+ },
+ {
+  "model": "claude-opus-4.8-high",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.4230599558089471,
+  "lo": 0.21855161158710737,
+  "hi": 0.6244932432432432
+ },
+ {
+  "model": "claude-opus-4.8-high",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.18221286744927442,
+  "lo": -0.09869281045751631,
+  "hi": 0.4557142857142858
+ },
+ {
+  "model": "claude-opus-4.8-high",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.6260870463427282,
+  "lo": 0.4218045112781955,
+  "hi": 0.83125
+ },
+ {
+  "model": "claude-opus-4.8-high",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.23840464892927182,
+  "lo": 0.12492378048780488,
+  "hi": 0.36363636363636365
+ },
+ {
+  "model": "claude-opus-4.8-high",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.37129941376123726,
+  "lo": -0.010606060606060425,
+  "hi": 0.656875
+ },
+ {
+  "model": "claude-opus-4.8-high",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.07742675891205007,
+  "lo": -0.1134444444444445,
+  "hi": 0.2666666666666667
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.11047277684688765,
+  "lo": 0.04413960514764161,
+  "hi": 0.18647189192099298
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.18433958230108538,
+  "lo": 0.11025560648440802,
+  "hi": 0.2670276303872766
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.12707189263298432,
+  "lo": 0.06076972890637158,
+  "hi": 0.19537061784406495
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.1652747482846749,
+  "lo": 0.0658993788348382,
+  "hi": 0.26842134615501034
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.07471638004680287,
+  "lo": -0.07709210234454965,
+  "hi": 0.2180032467532467
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.2458932190752276,
+  "lo": 0.1397909599956927,
+  "hi": 0.3556042839274547
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.05591073747181019,
+  "lo": -0.010146756353962847,
+  "hi": 0.12427942030385503
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.08920158119478462,
+  "lo": 0.010909711554872888,
+  "hi": 0.18255025849395423
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.09529035428957862,
+  "lo": -0.004536332269028774,
+  "hi": 0.1945279868219447
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.13212443417347133,
+  "lo": 0.05639442814317476,
+  "hi": 0.20655164134800072
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.12601018298670158,
+  "lo": 0.03636535257061576,
+  "hi": 0.2187995669656666
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.24466502832577533,
+  "lo": 0.1286136470037454,
+  "hi": 0.3595272380694763
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "turns",
+  "side": "above",
+  "d": 0.03972176900482936,
+  "lo": -0.08491306097822897,
+  "hi": 0.16544090153718324
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "turns",
+  "side": "below",
+  "d": 0.09806921197697718,
+  "lo": -0.01983813700918962,
+  "hi": 0.2229958105287784
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.08239053225946823,
+  "lo": -0.01739701135981754,
+  "hi": 0.20234745962866482
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.08172500469907909,
+  "lo": 0.013182368255987448,
+  "hi": 0.1544639321386604
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "zills",
+  "side": "above",
+  "d": 0.23051229839218162,
+  "lo": -0.01765416936005164,
+  "hi": 0.40780661779274824
+ },
+ {
+  "model": "claude-opus-4.8-max",
+  "question": "zills",
+  "side": "below",
+  "d": 0.2868712923085537,
+  "lo": 0.1768840482771604,
+  "hi": 0.3951834802723811
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "bridge",
+  "side": "above",
+  "d": -0.0396184020785943,
+  "lo": -0.1119348101445555,
+  "hi": 0.02813648703440079
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.043265043558609814,
+  "lo": -0.020378534482812564,
+  "hi": 0.1073107448107448
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.0646740909969226,
+  "lo": -0.020797816898445655,
+  "hi": 0.14651867393612683
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.052130355692968894,
+  "lo": -0.007717790727945048,
+  "hi": 0.1126355382765741
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.17562432024148106,
+  "lo": 0.07013172756321194,
+  "hi": 0.2899150943396227
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.10446097440343075,
+  "lo": 0.007463130940855511,
+  "hi": 0.20873424125843137
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.14820207466650387,
+  "lo": 0.0854418888402552,
+  "hi": 0.21280672772346365
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.03100384065603138,
+  "lo": -0.042316553526289095,
+  "hi": 0.10897561228725612
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.15480573216982743,
+  "lo": 0.08557791290960896,
+  "hi": 0.22060112973760934
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.09897435485766262,
+  "lo": 0.016664794728530392,
+  "hi": 0.1833986127524917
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.05517057007468701,
+  "lo": -0.032796615625109125,
+  "hi": 0.13584437577802635
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.07344891305243328,
+  "lo": -0.0036322167476556715,
+  "hi": 0.1519626833714416
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "turns",
+  "side": "above",
+  "d": 0.05805032704931825,
+  "lo": 0.0,
+  "hi": 0.1428571428571429
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "turns",
+  "side": "below",
+  "d": 0.013470694599735804,
+  "lo": -0.06338199271175708,
+  "hi": 0.08615071896314103
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.14876549165395472,
+  "lo": 0.08303186182983723,
+  "hi": 0.21155337247816913
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.13969789139585165,
+  "lo": 0.06778691516547142,
+  "hi": 0.20942005059868657
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "zills",
+  "side": "above",
+  "d": 0.19147206649422888,
+  "lo": 0.07508705357142867,
+  "hi": 0.3081977683392778
+ },
+ {
+  "model": "claude-sonnet-4.5",
+  "question": "zills",
+  "side": "below",
+  "d": 0.12529756369269762,
+  "lo": 0.02418651816279125,
+  "hi": 0.22677585856941393
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.05320609498076724,
+  "lo": -0.04308568169406015,
+  "hi": 0.15332809764136357
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.13940914335477533,
+  "lo": 0.06816673965053091,
+  "hi": 0.20736381817508442
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.08865082044711492,
+  "lo": 0.014524808239386755,
+  "hi": 0.15971738575957561
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.12055483585061513,
+  "lo": 0.04360157699443419,
+  "hi": 0.19720956227145528
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.13809731082748516,
+  "lo": 0.0025542092556240167,
+  "hi": 0.2690613883576994
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "giraffes",
+  "side": "below",
+  "d": -0.015654912427359936,
+  "lo": -0.11038102389969959,
+  "hi": 0.07771977680065914
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.051170241704652696,
+  "lo": -0.026679487025516573,
+  "hi": 0.1273286240100686
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.02379586030624257,
+  "lo": -0.06764029147451557,
+  "hi": 0.10939274940745529
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.012810023313226806,
+  "lo": -0.07819614782850078,
+  "hi": 0.10446245965867976
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.10444711532247748,
+  "lo": -0.004596602265156491,
+  "hi": 0.21378737541528237
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "tbc",
+  "side": "above",
+  "d": -0.02866726150216433,
+  "lo": -0.10718707324323702,
+  "hi": 0.049716452623235416
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.06138633718576284,
+  "lo": -0.04340095873994179,
+  "hi": 0.1721369825708061
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "turns",
+  "side": "above",
+  "d": 0.08376511882931464,
+  "lo": -0.02189872849966436,
+  "hi": 0.18761858135709233
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "turns",
+  "side": "below",
+  "d": 0.2708341083864871,
+  "lo": 0.13620423981951138,
+  "hi": 0.403930580346236
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.2202507343408825,
+  "lo": 0.11724380963719296,
+  "hi": 0.31433298319327724
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.05807046854507548,
+  "lo": -0.05382045373980853,
+  "hi": 0.17270430313101293
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "zills",
+  "side": "above",
+  "d": 0.2722107129050963,
+  "lo": 0.17191432278568344,
+  "hi": 0.3596276683087028
+ },
+ {
+  "model": "claude-sonnet-4.6-high",
+  "question": "zills",
+  "side": "below",
+  "d": 0.18514355656705667,
+  "lo": 0.07634532651338433,
+  "hi": 0.29311842105263153
+ },
+ {
+  "model": "gemini-2.5-pro",
+  "question": "tbc",
+  "side": "above",
+  "d": -0.11713096018805469,
+  "lo": -0.36363636363636365,
+  "hi": 0.16666666666666663
+ },
+ {
+  "model": "gemini-2.5-pro",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.1098889902289544,
+  "lo": -0.2557158119658115,
+  "hi": 0.4871428571428571
+ },
+ {
+  "model": "gemini-2.5-pro",
+  "question": "turns",
+  "side": "below",
+  "d": -0.08389698692158182,
+  "lo": -0.3436565656565656,
+  "hi": 0.16695510245441847
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.312421293037464,
+  "lo": 0.23804192672389882,
+  "hi": 0.38932827664066544
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.16169217515029402,
+  "lo": 0.09105557384338767,
+  "hi": 0.23989121667066735
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.25582456740515147,
+  "lo": 0.16838536572815038,
+  "hi": 0.3412905024610777
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.16187575612377067,
+  "lo": 0.10833315937575676,
+  "hi": 0.2168427926416718
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.22065524916032353,
+  "lo": 0.13781241474206138,
+  "hi": 0.3036145166277604
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.16686606594012235,
+  "lo": 0.10216201427381962,
+  "hi": 0.23199761460368787
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.3694645188885136,
+  "lo": 0.2848061672491052,
+  "hi": 0.4556596069095283
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.23360062240636267,
+  "lo": 0.14735069390152444,
+  "hi": 0.3311892373115221
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.23434409332601683,
+  "lo": 0.16809735035360573,
+  "hi": 0.30133828303444943
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.09939650362824608,
+  "lo": 0.041962647297942725,
+  "hi": 0.15792233745622097
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.34095395510520127,
+  "lo": 0.2785165416234337,
+  "hi": 0.412515243902439
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.28382056395703387,
+  "lo": 0.2023162025050105,
+  "hi": 0.3628492247268633
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "turns",
+  "side": "above",
+  "d": 0.12411547904412029,
+  "lo": 0.047616945232839214,
+  "hi": 0.20432706377952506
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "turns",
+  "side": "below",
+  "d": 0.09482417225937248,
+  "lo": 0.003443404083885354,
+  "hi": 0.1837516460248452
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.23468796197993577,
+  "lo": 0.163869755690651,
+  "hi": 0.31378223617028334
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.08920052680949306,
+  "lo": 0.03657844048682381,
+  "hi": 0.14496083862692627
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "zills",
+  "side": "above",
+  "d": 0.31225701707483844,
+  "lo": 0.2652932913788406,
+  "hi": 0.35976905260796666
+ },
+ {
+  "model": "gemini-3.1-pro-high",
+  "question": "zills",
+  "side": "below",
+  "d": 0.2785649226920189,
+  "lo": 0.19643841584799523,
+  "hi": 0.3588073723252295
+ },
+ {
+  "model": "gemini-3.1-pro-medium",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.31750319260801063,
+  "lo": 0.2026795634920635,
+  "hi": 0.4172880325942357
+ },
+ {
+  "model": "gemini-3.1-pro-medium",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.22700275654350172,
+  "lo": 0.13256644986141983,
+  "hi": 0.31993294077271744
+ },
+ {
+  "model": "gemini-3.1-pro-medium",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.2395753448869573,
+  "lo": 0.11716599841599845,
+  "hi": 0.36036817028822843
+ },
+ {
+  "model": "gemini-3.1-pro-medium",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.32992080508134736,
+  "lo": 0.21859642311449543,
+  "hi": 0.44458395794607347
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.18247483621331162,
+  "lo": 0.12272943899782134,
+  "hi": 0.24021185660851657
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.1615626976715444,
+  "lo": 0.11232503223555623,
+  "hi": 0.21473683345435335
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.17417220459983465,
+  "lo": 0.09837230376627264,
+  "hi": 0.24648129322844833
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.2332064763307991,
+  "lo": 0.1705542229982963,
+  "hi": 0.3022110475162208
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.17827651970747088,
+  "lo": 0.09770839665242019,
+  "hi": 0.26014376992234217
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.20429865811663767,
+  "lo": 0.13944629818476376,
+  "hi": 0.2669799671565937
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.24660584947309838,
+  "lo": 0.14491381318115173,
+  "hi": 0.35653080277393845
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.15066498309253507,
+  "lo": 0.058638630792908875,
+  "hi": 0.23480521311707217
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.19203267901192858,
+  "lo": 0.1263482922718831,
+  "hi": 0.25852739732137286
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.0617463507052727,
+  "lo": 0.006411571025601179,
+  "hi": 0.1163343965975545
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.1635986195866881,
+  "lo": 0.09519402880675527,
+  "hi": 0.23458446963691132
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.14174165505385894,
+  "lo": 0.08553760386940328,
+  "hi": 0.19834682948526985
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "turns",
+  "side": "above",
+  "d": 0.1467870467078792,
+  "lo": 0.0563918331139509,
+  "hi": 0.23920000256343513
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "turns",
+  "side": "below",
+  "d": 0.20360924464885877,
+  "lo": 0.13448521059313542,
+  "hi": 0.2850281565875478
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.13763363926831232,
+  "lo": 0.04147363856723461,
+  "hi": 0.2223267494009953
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.16381666849939344,
+  "lo": 0.10816050076584002,
+  "hi": 0.22568818821031422
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "zills",
+  "side": "above",
+  "d": 0.1427856959126329,
+  "lo": 0.07674642584635856,
+  "hi": 0.2130984121306457
+ },
+ {
+  "model": "gemini-3.5-flash-high",
+  "question": "zills",
+  "side": "below",
+  "d": 0.20821442706069376,
+  "lo": 0.13431098888262696,
+  "hi": 0.2789210208156714
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.0752139923346178,
+  "lo": -0.05366971616232708,
+  "hi": 0.20347865187133643
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.05747297118712206,
+  "lo": -0.01667128603104212,
+  "hi": 0.13780510597322246
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "crochet",
+  "side": "above",
+  "d": -0.15745520335971855,
+  "lo": -0.28985977790325623,
+  "hi": -0.03355172071607196
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.059869880197839634,
+  "lo": -0.04293955726395709,
+  "hi": 0.1681415848782261
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.10424407926222418,
+  "lo": -0.03260457018742024,
+  "hi": 0.2574458127617567
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "giraffes",
+  "side": "below",
+  "d": -0.015249032476586382,
+  "lo": -0.10885505498148643,
+  "hi": 0.08526753728954609
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "maiden",
+  "side": "above",
+  "d": -0.060670335909933384,
+  "lo": -0.21592514124293782,
+  "hi": 0.09515332092319768
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "maiden",
+  "side": "below",
+  "d": -0.018832910721260678,
+  "lo": -0.13224211815120906,
+  "hi": 0.09564948954474131
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.01297938497215545,
+  "lo": -0.09701680138274614,
+  "hi": 0.1243482620320856
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.06442208423586844,
+  "lo": -0.021214233271983046,
+  "hi": 0.15345721655535247
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "tbc",
+  "side": "above",
+  "d": -0.042896689702409035,
+  "lo": -0.22088896253848783,
+  "hi": 0.11504166666666661
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.07922595371511346,
+  "lo": -0.00487457663804184,
+  "hi": 0.16123817096745188
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "turns",
+  "side": "above",
+  "d": -0.0010641475146277461,
+  "lo": -0.12881493506493505,
+  "hi": 0.12522641077299923
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "turns",
+  "side": "below",
+  "d": -0.022385998666094097,
+  "lo": -0.09602023005211341,
+  "hi": 0.056774324530527054
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.11500144520488396,
+  "lo": -0.04368799603174599,
+  "hi": 0.2759430485904038
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.06471092195350803,
+  "lo": -0.05591798366699511,
+  "hi": 0.1825334816146893
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "zills",
+  "side": "above",
+  "d": 0.019785458275297423,
+  "lo": -0.11716119909502262,
+  "hi": 0.16819868245555636
+ },
+ {
+  "model": "gpt-5.1-medium",
+  "question": "zills",
+  "side": "below",
+  "d": 0.1273200647890279,
+  "lo": 0.04065824099044611,
+  "hi": 0.21411372308720725
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.12365489988861471,
+  "lo": 0.02144879334168835,
+  "hi": 0.23275534247853674
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "bridge",
+  "side": "below",
+  "d": -0.011177561370346893,
+  "lo": -0.07549234346722987,
+  "hi": 0.054394779792247515
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.14022511523720874,
+  "lo": -0.009932006399397753,
+  "hi": 0.2810995920226365
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "crochet",
+  "side": "below",
+  "d": -0.016884775478977137,
+  "lo": -0.14773843700159486,
+  "hi": 0.12224202889525469
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.059863486186920147,
+  "lo": -0.08673496830377152,
+  "hi": 0.19984785692951015
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.038706058078559806,
+  "lo": -0.07545731707317072,
+  "hi": 0.15020262824111616
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "maiden",
+  "side": "above",
+  "d": -0.056232468334886876,
+  "lo": -0.19021343045219444,
+  "hi": 0.07333873144399451
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.15794547544799667,
+  "lo": 0.026906121216893737,
+  "hi": 0.26867370811844665
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.059031780468450874,
+  "lo": -0.04154861454408995,
+  "hi": 0.16594674702122617
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.013710889720189603,
+  "lo": -0.0757065838138335,
+  "hi": 0.10607387249478208
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.2069520375847106,
+  "lo": 0.04568879700515194,
+  "hi": 0.3629995854063018
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.1012023597439586,
+  "lo": 0.01238417377762307,
+  "hi": 0.19929105880031323
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "turns",
+  "side": "above",
+  "d": 0.035406171117014475,
+  "lo": -0.09204721481562098,
+  "hi": 0.15769390281607332
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "turns",
+  "side": "below",
+  "d": 0.004832711265123715,
+  "lo": -0.0790613763639448,
+  "hi": 0.08657854484733593
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "windowdays",
+  "side": "above",
+  "d": -0.0339322330561729,
+  "lo": -0.1756954687886206,
+  "hi": 0.11294347919347911
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.07607658366446081,
+  "lo": -0.032572003160238436,
+  "hi": 0.19663031790556335
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "zills",
+  "side": "above",
+  "d": 0.1321641740760289,
+  "lo": 0.030481545375635657,
+  "hi": 0.2379897186147186
+ },
+ {
+  "model": "gpt-5.2-medium",
+  "question": "zills",
+  "side": "below",
+  "d": 0.09206113997329514,
+  "lo": -0.013411646181841834,
+  "hi": 0.20234696747857953
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.09905450642865606,
+  "lo": 0.04034526828482871,
+  "hi": 0.15953631734766546
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.12008839051104009,
+  "lo": 0.075601737012987,
+  "hi": 0.1670663690250185
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.12477785634740042,
+  "lo": 0.007032007973644024,
+  "hi": 0.24927991361236704
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.0571260154517786,
+  "lo": -0.010884014794296031,
+  "hi": 0.12513412931154866
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.10461122990146769,
+  "lo": 0.016989243700861977,
+  "hi": 0.1877256636346383
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.022888635176442493,
+  "lo": -0.05745414750152627,
+  "hi": 0.1129771682668991
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.11772038132585298,
+  "lo": 0.033181526866379575,
+  "hi": 0.20436505927131596
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.026467952050466134,
+  "lo": -0.049703036531157305,
+  "hi": 0.10205470292795941
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.10206139093930641,
+  "lo": -0.0016594090610805164,
+  "hi": 0.19234334392330196
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.14100109510775968,
+  "lo": 0.07617295172586393,
+  "hi": 0.20486955668971207
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.10554486419872672,
+  "lo": 0.03826827589877405,
+  "hi": 0.17792588004730064
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.10972061922230149,
+  "lo": 0.06026292931281677,
+  "hi": 0.1666248247355828
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "turns",
+  "side": "above",
+  "d": 0.07056997415681851,
+  "lo": -0.04304767112823991,
+  "hi": 0.19268408007156904
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "turns",
+  "side": "below",
+  "d": 0.0655345282246771,
+  "lo": 0.009175689480209435,
+  "hi": 0.12841945264679835
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.13038571870367963,
+  "lo": -0.007086295792490015,
+  "hi": 0.2906854988329643
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.09978499497312504,
+  "lo": 0.03340264083354544,
+  "hi": 0.16369319630640092
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "zills",
+  "side": "above",
+  "d": 0.11396300060804201,
+  "lo": 0.040279314433919376,
+  "hi": 0.18963150725307984
+ },
+ {
+  "model": "gpt-5.4-medium",
+  "question": "zills",
+  "side": "below",
+  "d": 0.12000227352425787,
+  "lo": 0.06805741410070017,
+  "hi": 0.17541979743113595
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.05216374272250638,
+  "lo": 0.0011159651866458691,
+  "hi": 0.1091588003691988
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.039992442614588786,
+  "lo": -0.018869689415305334,
+  "hi": 0.09777311856876214
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.10111528083509104,
+  "lo": 0.009380577761632003,
+  "hi": 0.1946715226494637
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.10272039481667924,
+  "lo": 0.029743234706470032,
+  "hi": 0.18496299858837303
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.07207551378477406,
+  "lo": -0.009139895661435454,
+  "hi": 0.15683867897160675
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "giraffes",
+  "side": "below",
+  "d": -0.01816982886352042,
+  "lo": -0.07227804865658274,
+  "hi": 0.03743414614208121
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.1155613078864891,
+  "lo": 0.031396591596190335,
+  "hi": 0.1957245088611887
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.041381746133926554,
+  "lo": -0.03917840884439028,
+  "hi": 0.11965994949192252
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "orangecars",
+  "side": "above",
+  "d": -0.007115556760957693,
+  "lo": -0.07061931888609,
+  "hi": 0.06387442951602641
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.03367434226577185,
+  "lo": -0.0311036491957544,
+  "hi": 0.09542559685808095
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.043643061890998744,
+  "lo": -0.015097229541312667,
+  "hi": 0.10080224579023662
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.07466904669537967,
+  "lo": 0.01606882535040478,
+  "hi": 0.1343253296691364
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "turns",
+  "side": "above",
+  "d": -0.008309522976769589,
+  "lo": -0.08060911856705097,
+  "hi": 0.06368700677133961
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "turns",
+  "side": "below",
+  "d": 0.07704026330861019,
+  "lo": -0.002254832052265834,
+  "hi": 0.16204034414312832
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.09148476070037674,
+  "lo": 0.0031753998175669197,
+  "hi": 0.18269384675374478
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.11908631292081782,
+  "lo": 0.02382586655030467,
+  "hi": 0.2222523021099102
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "zills",
+  "side": "above",
+  "d": 0.04928265399216718,
+  "lo": -0.020854703073089734,
+  "hi": 0.1304495990444539
+ },
+ {
+  "model": "gpt-5.5-high",
+  "question": "zills",
+  "side": "below",
+  "d": 0.0945872775432923,
+  "lo": 0.016543645020511002,
+  "hi": 0.1787045959410445
+ },
+ {
+  "model": "gpt-5.5-medium",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.11819285660500539,
+  "lo": 0.01781476984493004,
+  "hi": 0.2222003001805508
+ },
+ {
+  "model": "gpt-5.5-medium",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.0957795907716155,
+  "lo": 0.0020759688147094033,
+  "hi": 0.19015435649639514
+ },
+ {
+  "model": "gpt-5.5-medium",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.027524048422111896,
+  "lo": -0.048215347696221995,
+  "hi": 0.11034375969901856
+ },
+ {
+  "model": "gpt-5.5-medium",
+  "question": "maiden",
+  "side": "below",
+  "d": -0.04053708126133186,
+  "lo": -0.14369197612732093,
+  "hi": 0.06630446278711516
+ },
+ {
+  "model": "gpt-5.5-medium",
+  "question": "orangecars",
+  "side": "above",
+  "d": -0.021703150701735036,
+  "lo": -0.12561067199598935,
+  "hi": 0.09080591876748861
+ },
+ {
+  "model": "gpt-5.5-medium",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.08551305825760852,
+  "lo": -0.01021474235564346,
+  "hi": 0.18466466684089108
+ },
+ {
+  "model": "gpt-5.5-medium",
+  "question": "turns",
+  "side": "above",
+  "d": 0.08343456994914497,
+  "lo": 0.009540426265412114,
+  "hi": 0.16173187355868432
+ },
+ {
+  "model": "gpt-5.5-medium",
+  "question": "turns",
+  "side": "below",
+  "d": 0.0009732983934846953,
+  "lo": -0.07754694441687766,
+  "hi": 0.08310240689041395
+ },
+ {
+  "model": "gpt-5.5-medium",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.015202352258208008,
+  "lo": -0.10425759567090598,
+  "hi": 0.14791495086406653
+ },
+ {
+  "model": "gpt-5.5-medium",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.008211987271290994,
+  "lo": -0.10311539605432733,
+  "hi": 0.11831576541792972
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.07211122789448929,
+  "lo": 0.03358705127710317,
+  "hi": 0.11171291966587742
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.06613334562746981,
+  "lo": 0.011118885490504035,
+  "hi": 0.1219912774035933
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.13353776442720094,
+  "lo": 0.09150879964489238,
+  "hi": 0.17813042242857957
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.1503546354016226,
+  "lo": 0.09835943229152826,
+  "hi": 0.20425165924343622
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "giraffes",
+  "side": "above",
+  "d": -0.01356807188925634,
+  "lo": -0.0891761048483262,
+  "hi": 0.06610324594605511
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.10168502343690268,
+  "lo": 0.051409469046637415,
+  "hi": 0.15401266542565073
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.11022229601773521,
+  "lo": 0.06979577998953805,
+  "hi": 0.15062938288703182
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.05923295591704792,
+  "lo": 0.012605137781667379,
+  "hi": 0.1061849841994946
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.04579595186593102,
+  "lo": -0.013520972302416872,
+  "hi": 0.1031828277486313
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.035374736086896494,
+  "lo": -0.014890076064159315,
+  "hi": 0.08789309082944731
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.04921516256800839,
+  "lo": -0.004953654941172609,
+  "hi": 0.10473062925433382
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.10603373773488631,
+  "lo": 0.05395368700584379,
+  "hi": 0.16338498737859403
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "turns",
+  "side": "above",
+  "d": 0.0586588740217684,
+  "lo": 0.0037905028028991316,
+  "hi": 0.1210832731874554
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "turns",
+  "side": "below",
+  "d": 0.13499127795783264,
+  "lo": 0.06851987249794264,
+  "hi": 0.19880988199276742
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.10407361319998644,
+  "lo": 0.0534886543225767,
+  "hi": 0.15849457571404166
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.027830826094376464,
+  "lo": -0.01549103695076433,
+  "hi": 0.07232644471964043
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "zills",
+  "side": "above",
+  "d": 0.11465885272138326,
+  "lo": 0.0064539853764217,
+  "hi": 0.23331343812000918
+ },
+ {
+  "model": "kimi-k2.5",
+  "question": "zills",
+  "side": "below",
+  "d": 0.09557699424761214,
+  "lo": 0.009896004718487816,
+  "hi": 0.18957819912347615
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.04702294902454051,
+  "lo": -0.01084989645377115,
+  "hi": 0.10580694653650907
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.07016763277413188,
+  "lo": 0.01826505492760816,
+  "hi": 0.12745191641141462
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.11699202356457522,
+  "lo": 0.05887209483192316,
+  "hi": 0.17883075559487394
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.04644162448083952,
+  "lo": -0.00019874746012045263,
+  "hi": 0.08965749269590095
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.009956781110316686,
+  "lo": -0.0830174348185978,
+  "hi": 0.11061572520170089
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.015255638641122502,
+  "lo": -0.061286337948744725,
+  "hi": 0.09964480396551009
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.09236364471063706,
+  "lo": 0.02886685145837475,
+  "hi": 0.16569718783344967
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "maiden",
+  "side": "below",
+  "d": -0.009104636280543341,
+  "lo": -0.09285518158196286,
+  "hi": 0.07236628540188855
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.048281738024144885,
+  "lo": -0.023614624383433824,
+  "hi": 0.12350547221133863
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "orangecars",
+  "side": "below",
+  "d": -0.022105397445416963,
+  "lo": -0.08081564499893,
+  "hi": 0.03226799823896461
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.08199526628916753,
+  "lo": 0.005312770089101468,
+  "hi": 0.1505917493455853
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.09473882003754915,
+  "lo": 0.006566585371380295,
+  "hi": 0.18012085453015964
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "turns",
+  "side": "above",
+  "d": 0.08416956459377904,
+  "lo": 0.016032327868814505,
+  "hi": 0.1607242630658833
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "turns",
+  "side": "below",
+  "d": 0.05848154782015822,
+  "lo": -0.011337353315189688,
+  "hi": 0.13491895897097445
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.02481103901822398,
+  "lo": -0.07486712355018992,
+  "hi": 0.11673378081661527
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.059318768110022034,
+  "lo": 0.01159304832586884,
+  "hi": 0.10476108200135344
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "zills",
+  "side": "above",
+  "d": 0.15937011837242168,
+  "lo": 0.01997189597315438,
+  "hi": 0.3137656128024981
+ },
+ {
+  "model": "kimi-k2.6",
+  "question": "zills",
+  "side": "below",
+  "d": 0.04160095013217701,
+  "lo": -0.09577313084858352,
+  "hi": 0.19908654913427493
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.08877088575584231,
+  "lo": 0.009178308002994233,
+  "hi": 0.16312864602205757
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.022068796590583088,
+  "lo": -0.03929185445759476,
+  "hi": 0.08003193431391423
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.1654616837711687,
+  "lo": 0.10463398637804674,
+  "hi": 0.22712644656411893
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.05865683821039298,
+  "lo": 0.0030820494812561104,
+  "hi": 0.11008236185207138
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.0413259952648569,
+  "lo": -0.04634745787190156,
+  "hi": 0.12427913779477645
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.03796842706609726,
+  "lo": -0.04282344092895607,
+  "hi": 0.12349435246807698
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.1047985253507974,
+  "lo": 0.0478600138671249,
+  "hi": 0.1635161447049948
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.1594730663898974,
+  "lo": 0.0999523166653623,
+  "hi": 0.21502237562516965
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.14130386381662485,
+  "lo": 0.09146383740018635,
+  "hi": 0.199149939713328
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.051653136086424245,
+  "lo": -0.008014292366418572,
+  "hi": 0.10701539799623548
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.15895045195528892,
+  "lo": 0.08473934649122362,
+  "hi": 0.23035118861957302
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.21374877374986134,
+  "lo": 0.12194946530378167,
+  "hi": 0.3151516455511868
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "turns",
+  "side": "above",
+  "d": 0.06681470485973981,
+  "lo": -0.014982562038900072,
+  "hi": 0.14969013973399486
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "turns",
+  "side": "below",
+  "d": 0.10701937262928496,
+  "lo": 0.040378665880228225,
+  "hi": 0.1845850316622375
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.1739469772745398,
+  "lo": -0.0005479395803250917,
+  "hi": 0.3352959110473458
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.05538870109033701,
+  "lo": -0.03215604704564976,
+  "hi": 0.15823233363742217
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "zills",
+  "side": "above",
+  "d": 0.20957729476289008,
+  "lo": 0.11936527139190051,
+  "hi": 0.31170620093657403
+ },
+ {
+  "model": "qwen3.5-35",
+  "question": "zills",
+  "side": "below",
+  "d": 0.16374263422568702,
+  "lo": 0.07612451514982951,
+  "hi": 0.24999462357949426
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "bridge",
+  "side": "above",
+  "d": 0.06624071080730433,
+  "lo": -0.007761521211189301,
+  "hi": 0.1435755309366758
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "bridge",
+  "side": "below",
+  "d": 0.021150488315847572,
+  "lo": -0.018529254629955572,
+  "hi": 0.06666117383409731
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "crochet",
+  "side": "above",
+  "d": 0.06324523262381275,
+  "lo": -0.010968228153318762,
+  "hi": 0.1359298829220488
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "crochet",
+  "side": "below",
+  "d": 0.08331604847478921,
+  "lo": 0.03845493989169451,
+  "hi": 0.12370086311041037
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "giraffes",
+  "side": "above",
+  "d": 0.038668495030256295,
+  "lo": -0.008210145144876403,
+  "hi": 0.08952906241900505
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "giraffes",
+  "side": "below",
+  "d": 0.05938440420611569,
+  "lo": 0.007428983175484817,
+  "hi": 0.1089714055622892
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "maiden",
+  "side": "above",
+  "d": 0.06390159877708682,
+  "lo": 0.01966478295859667,
+  "hi": 0.10884665336410787
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "maiden",
+  "side": "below",
+  "d": 0.03846090198473516,
+  "lo": -0.007284357333279093,
+  "hi": 0.0821157404132159
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "orangecars",
+  "side": "above",
+  "d": 0.021178732174980022,
+  "lo": -0.04121689431272729,
+  "hi": 0.08576684057539367
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "orangecars",
+  "side": "below",
+  "d": 0.02198431783537325,
+  "lo": -0.01374356129383884,
+  "hi": 0.06224741704042359
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "tbc",
+  "side": "above",
+  "d": 0.04791112713872356,
+  "lo": -0.05499411372320906,
+  "hi": 0.1472455999895858
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "tbc",
+  "side": "below",
+  "d": 0.05318263346465742,
+  "lo": -0.006714541087857549,
+  "hi": 0.1129455852582191
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "turns",
+  "side": "above",
+  "d": 0.03202178606716414,
+  "lo": -0.021389298869934233,
+  "hi": 0.08311672528811878
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "turns",
+  "side": "below",
+  "d": 0.013948754949551435,
+  "lo": -0.07399693126181185,
+  "hi": 0.10691007161563068
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "windowdays",
+  "side": "above",
+  "d": 0.11703348366587907,
+  "lo": 0.050465750315461785,
+  "hi": 0.1845573182722585
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "windowdays",
+  "side": "below",
+  "d": 0.07029672991519088,
+  "lo": 0.001556702314706243,
+  "hi": 0.13216829713714837
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "zills",
+  "side": "above",
+  "d": 0.12362343347791907,
+  "lo": 0.0008491608491608858,
+  "hi": 0.24876991170498972
+ },
+ {
+  "model": "qwen3.6-35",
+  "question": "zills",
+  "side": "below",
+  "d": 0.04191463944962196,
+  "lo": -0.019532925516296755,
+  "hi": 0.10337771704479294
+ }
+]

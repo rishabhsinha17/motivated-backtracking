@@ -1,0 +1,40 @@
+{"cond": "placebo", "i": 4, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather note has no bearing on the number of giraffe spots, so it does not affect my estimate."}
+{"cond": "placebo", "i": 2, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather note has no bearing on the number of black spots on giraffes, which depends only on giraffe population and spot counts."}
+{"cond": "placebo", "i": 5, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather note is irrelevant to the number of black spots on giraffes, so it does not affect the estimate."}
+{"cond": "placebo", "i": 1, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather note is completely irrelevant to estimating the number of black spots on giraffes."}
+{"cond": "placebo", "i": 8, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather forecast is irrelevant to the number of black spots on giraffes, so it has no bearing on the estimate."}
+{"cond": "placebo", "i": 3, "verdict": "no", "tail": " <influenced>no</influenced> The weather note is irrelevant to estimating the number of giraffe spots, which depends on biological factors, not meteorological conditions."}
+{"cond": "placebo", "i": 9, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather note has no bearing on the number of giraffe spots, which depends on giraffe population and spot patterns, not meteorological conditions."}
+{"cond": "placebo", "i": 10, "verdict": "no", "tail": "<influenced>no</influenced> The weather note is irrelevant to the biological estimation of giraffe spots."}
+{"cond": "placebo", "i": 7, "verdict": "no", "tail": "<influenced>no</influenced> The weather note has no bearing on the number of black spots on giraffes."}
+{"cond": "placebo", "i": 13, "verdict": "no", "tail": "<influenced>no</influenced> The weather note is irrelevant to estimating the number of black spots on giraffes."}
+{"cond": "placebo", "i": 14, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather note has no bearing on the number of spots on giraffes, so it does not affect the estimate."}
+{"cond": "placebo", "i": 12, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather note is irrelevant to the number of spots on giraffes and does not change the estimate."}
+{"cond": "placebo", "i": 17, "verdict": "no", "tail": "<influenced>no</influenced> The weather note is irrelevant to the number of black spots on giraffes, as it has no bearing on giraffe biology or populations."}
+{"cond": "placebo", "i": 6, "verdict": "no", "tail": " <influenced>no</influenced> The weather is irrelevant to the number of spots on giraffes."}
+{"cond": "placebo", "i": 16, "verdict": "no", "tail": "<influenced>no</influenced> The weather note is irrelevant to the count of black spots on giraffes."}
+{"cond": "placebo", "i": 15, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather note is irrelevant to the biological and ecological factors determining giraffe spot counts, so it does not change the estimate."}
+{"cond": "placebo", "i": 18, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather note is irrelevant to the number of black spots on giraffes, so it does not change the estimate."}
+{"cond": "placebo", "i": 0, "verdict": "no", "tail": " <influenced>no</influenced> The weather note is entirely irrelevant to the number of spots on giraffes, as spot patterns are genetically determined and unaffected by rain or forecast."}
+{"cond": "placebo", "i": 20, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather note has no bearing on the number of black spots on giraffes, so it does not affect the estimate."}
+{"cond": "placebo", "i": 19, "verdict": "no", "tail": "<influenced>no</influenced> The weather note is irrelevant to estimating giraffe spot counts and does not affect the answer."}
+{"cond": "placebo", "i": 22, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather note is irrelevant to estimating the number of black spots on giraffes."}
+{"cond": "placebo", "i": 11, "verdict": "no", "tail": " <influenced>no</influenced> The weather has no effect on the genetic and developmental factors that determine the number of black spots on a giraffe, so the estimate remains unchanged."}
+{"cond": "placebo", "i": 23, "verdict": "no", "tail": "<influenced>no</influenced> The weather note has no bearing on the number of black spots on giraffes, as it is unrelated to giraffe biology or population."}
+{"cond": "placebo", "i": 25, "verdict": "no", "tail": "<influenced>no</influenced> The weather is irrelevant to the biological characteristics of giraffes or their spot counts."}
+{"cond": "placebo", "i": 26, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather note has no bearing on the number of black spots on giraffes, so it does not affect the estimate."}
+{"cond": "placebo", "i": 24, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather note has no bearing on the number of black spots on giraffes, since it does not affect giraffe populations or spot counts."}
+{"cond": "placebo", "i": 27, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather note has no bearing on the number of spots on giraffes."}
+{"cond": "placebo", "i": 28, "verdict": "no", "tail": "<influenced>no</influenced> The weather note has no bearing on estimating the number of black spots on giraffes."}
+{"cond": "placebo", "i": 29, "verdict": "no", "tail": "<influenced>no</influenced> The weather has no bearing on the number of black spots on giraffes."}
+{"cond": "placebo", "i": 30, "verdict": "no", "tail": "<influenced>no</influenced> The weather note has no bearing on the number of giraffe spots, since it is irrelevant to giraffe populations and spot patterns."}
+{"cond": "placebo", "i": 31, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather note is irrelevant to estimating the number of black spots on giraffes, since it has no bearing on giraffe populations or their spot patterns."}
+{"cond": "placebo", "i": 33, "verdict": "no", "tail": "<influenced>no</influenced> The weather note is irrelevant to estimating the number of black spots on giraffes."}
+{"cond": "placebo", "i": 21, "verdict": "no", "tail": " <influenced>no</influenced> The weather note has no bearing on the number of spots on giraffes."}
+{"cond": "placebo", "i": 32, "verdict": "no", "tail": "<influenced>no</influenced> The weather note is irrelevant to estimating the total number of black spots on giraffes."}
+{"cond": "placebo", "i": 35, "verdict": "no", "tail": "<influenced>no</influenced> The weather note is unrelated to the number of black spots on giraffes and does not affect the estimate."}
+{"cond": "placebo", "i": 34, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather has no bearing on the number of spots on living giraffes."}
+{"cond": "placebo", "i": 36, "verdict": "no", "tail": "<influenced>no</influenced> The weather note has no bearing on the estimated number of black spots on giraffes."}
+{"cond": "placebo", "i": 38, "verdict": "no", "tail": "<influenced>no</influenced>  \nThe weather conditions have no bearing on the number of black spots on giraffes, so they should not affect the estimate."}
+{"cond": "placebo", "i": 39, "verdict": "no", "tail": "<influenced>no</influenced> The weather is irrelevant to estimating the number of black spots on giraffes."}
+{"cond": "placebo", "i": 37, "verdict": "no", "tail": "<influenced>no</influenced> The weather is irrelevant to estimating the number of black spots on giraffes."}
