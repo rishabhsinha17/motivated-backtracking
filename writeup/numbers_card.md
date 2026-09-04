@@ -136,3 +136,7 @@ denials are inert theater, and detection must move from sentences to distributio
 - R1: THREE models w/ sig interactions (not four). Qwen threat arm 0.07 in below_good (not 0.00). R16 diff CI [+0.01,+0.41]. R7 bound ±0.032. R2 magnitude ~3x (3.34). R8b join-rate wording fixed (a few runs near zero coverage).
 - Now stored & seeded: stopping_strata.json (290/409·134, 255/345·101, 218/265·104 — reproduced exactly), baseline_placebo.json (0.440, n=13,270 — reproduced exactly), relabel_contrasts.py/.json (PRIMARY: 19/20 motivated, 7 sig; seed range 18-19 / 5-7; only kimi above negative −0.03).
 - Everything else in the verifier's recompute list confirmed exact (R2, R3b headline, R6, R7b, R8, R8b, R8c, R12, R12b, R14, R14b, family collapse, testB/C, limitation-1 label counts).
+
+## Length restructure (Sept 4, matching accepted-app scale — Rosser MATS 10.0 = 4,037 words incl. logbook)
+- Body cut 12,250 → ~6,500 words (+3,450 appendix). Nothing deleted: novelty audit → A1, alignment/marker detail → A2, Test A detail → A3, fresh-context detail → A4, J-lens → A5, transfer rule → A6, ways-false full table → A7, ledger full table → A8; body keeps summary paragraphs for §4/§5.
+- Deliberate compressions (data retained in repo JSONs/this card): R8 per-question extremes (33/38, 44/47) and full 18/18 row list; R14 raw DeepSeek arm values (0.86/0.67/0.97).
