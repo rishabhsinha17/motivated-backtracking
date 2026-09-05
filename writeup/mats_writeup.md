@@ -25,7 +25,7 @@
 
 **What would change my mind.** A same context first/third person minimal pair showing the unlock is a context effect. A first guess tilt that predicts the final bias with more models. (The judge relabel already ran: the effect survived, 19/20.)
 
-![Figure 1. Revision direction, bias with and without reasoning, verbal against numeric channels.](../figs/fig1_spine_draft.png){width=6.3in}
+![Figure 1. Revision direction, bias with and without reasoning, verbal against numeric channels.](../figs/fig1_spine_draft.png){width=6in}
 
 ---
 
@@ -71,11 +71,9 @@ Aditya Singh named the visible signature "motivated backtracking": an estimate l
 
 **R1 [pre specified]. Scrutiny frequency is not motivated.** P(backtrack sentence | side) differs by at most 1.7pp across flipped valence in every model, against base rates of 2 to 9%. Three models have interactions whose CIs exclude zero, in both directions (GLM +1.7pp [+0.4, +2.9]; qwen +0.8/−0.7pp; inkling-small +0.8/+0.7pp): small and inconsistent in sign, not exactly zero. **R1b [post hoc]** computes P(backtrack inside a revision span | side of the starting estimate): all 20 contrasts within ±0.07, mixed signs, one CI excluding zero (inkling-small below +0.07 [+0.02, +0.12]). Same conclusion.
 
-![Figure 2. Revision direction across all 10 models. Both contrasts, raw and distance stratified, 95% cluster bootstrap CIs.](../figs/fig1_forest.png){width=6.3in}
+![Figure 2. Revision direction across all 10 models. Both contrasts, raw and distance stratified, 95% cluster bootstrap CIs.](../figs/fig1_forest.png){width=5.2in}
 
-**R2 [pre specified]. Revision direction is motivated steering.** Given a revision from side S, the probability it moves toward the favorable side is elevated when S is unfavorable: 20/20 contrasts (10 models × 2 sides, two at zero: kimi-k3 above +0.007, minimax above +0.006), 12 CIs excluding zero, no significant reversals, median contrast +0.09. The independent unit is the model: 10/10 positive on the average of their sides (sign test p ≈ 0.001). On Qwen3.5-122B, baseline P(down|above) = 0.517 (n=615) becomes 0.789 (n=337) when above is bad and 0.654 (n=771) when above is good; below mirrors it (0.560 → 0.772). Claude Opus 4-7: 0.641 → 0.790 / 0.671. The bet also pulls revisions toward the threshold from both sides (0.517 → 0.654 even when above is good); that anchoring main effect is comparable in size and the valence swap cancels it by design. Median revision magnitude off the bad side is roughly 3x larger (qwen median log ratio −0.127 vs −0.038).
-
-![Figure 3. The mechanism on Qwen3.5-122B. Revision direction by condition against the no bet baseline.](../figs/fig2_mechanism_qwen.png){width=6.3in}
+**R2 [pre specified]. Revision direction is motivated steering.** Given a revision from side S, the probability it moves toward the favorable side is elevated when S is unfavorable: 20/20 contrasts (10 models × 2 sides, two at zero: kimi-k3 above +0.007, minimax above +0.006), 12 CIs excluding zero, no significant reversals, median contrast +0.09. The independent unit is the model: 10/10 positive on the average of their sides (sign test p ≈ 0.001). On Qwen3.5-122B, baseline P(down|above) = 0.517 (n=615) becomes 0.789 (n=337) when above is bad and 0.654 (n=771) when above is good; below mirrors it (0.560 → 0.772). Claude Opus 4-7: 0.641 → 0.790 / 0.671 (per condition figure: figs/fig2_mechanism_qwen.png in the repo). The bet also pulls revisions toward the threshold from both sides (0.517 → 0.654 even when above is good); that anchoring main effect is comparable in size and the valence swap cancels it by design. Median revision magnitude off the bad side is roughly 3x larger (qwen median log ratio −0.127 vs −0.038).
 
 **R3 [pre specified]. Robustness.** Distance and position stratified versions keep the effect in all models (20/20 positive), moving point estimates by under 0.03 in most cells.
 
@@ -85,19 +83,17 @@ Aditya Singh named the visible signature "motivated backtracking": an estimate l
 
 **R6 [post hoc]. Answer level bias, and the repo drift metric misses it.** I added final answer judging (repo's own judge, 1493/1500 parsed): paper style bias positive in 10/10 models, median +0.30 (sign test p ≈ 0.002). qwen goes 0.48 → 0.19 → 0.72, bias +0.53, against a repo MRF of +0.027; inkling-small has negative MRF (−0.021) and bias +0.26; steering does not correlate with MRF (ρ ≈ 0). The MRF is a poor proxy for outcome bias. **R7 [post hoc].** No final step flip: the final answer's side matches the last in CoT estimate within ±0.032 everywhere, so H-final-step fails on this zoo.
 
-**R7b [post hoc]. Steering predicts the bias; the first guess tilt does not.** The first in CoT estimate is already tilted in 8/10 models (median +0.15; GLM +0.22, DeepSeek-V4-Flash −0.05) and the bias added after it is positive in 10/10 (median +0.12). Across models, per revision steering strength predicts answer bias (Spearman ρ = 0.82, p = 0.004) and the post first guess component better still (ρ = 0.87); the first guess tilt does not (ρ = 0.31, n.s.). Leave one out keeps ρ at 0.75 to 0.95. No superficial feature matches it (specificity check after Yuan and Vlachos 2608.29431): hedge rate −0.44 (n.s.), length +0.41 (n.s.), and "wait / actually" rate runs the other way (−0.64, p = 0.048). The covert steerers do not announce their deliberation. Post hoc, n = 10. This coheres with Test A model by model: DeepSeek has no first guess tilt and its bias vanishes without reasoning; GLM's is mostly at the first guess and it is biased with no reasoning at all.
-
-![Figure 3c. Revision steering strength against answer level bias (left) and against the bias added after the first estimate (right), 10 models.](../figs/fig10_steering_vs_answer.png){width=6.3in}
+**R7b [post hoc]. Steering predicts the bias; the first guess tilt does not.** The first in CoT estimate is already tilted in 8/10 models (median +0.15; GLM +0.22, DeepSeek-V4-Flash −0.05) and the bias added after it is positive in 10/10 (median +0.12). Across models, per revision steering strength predicts answer bias (Spearman ρ = 0.82, p = 0.004) and the post first guess component better still (ρ = 0.87); the first guess tilt does not (ρ = 0.31, n.s.). Leave one out keeps ρ at 0.75 to 0.95. No superficial feature matches it (specificity check after Yuan and Vlachos 2608.29431): hedge rate −0.44 (n.s.), length +0.41 (n.s.), and "wait / actually" rate runs the other way (−0.64, p = 0.048). The covert steerers do not announce their deliberation. Post hoc, n = 10. (Scatter: figs/fig10_steering_vs_answer.png in the repo.) This coheres with Test A model by model: DeepSeek has no first guess tilt and its bias vanishes without reasoning; GLM's is mostly at the first guess and it is biased with no reasoning at all.
 
 ### 3b. Transfer (authors' release, 25 models × 9 questions)
 
 **R8 [pre specified direction]. The steering signature is general.** The R2 contrast unchanged on the authors' public data: 356/396 motivated cells (90%), 215 significant, 1 significant reversal, median +0.10; every question at least 85% motivated. Dropping 10 thin cells (<10 pairs on a side) leaves 348/386, 212 significant. 24/25 models majority motivated; the weak rows are three specific runs (gpt-5.1-medium 11/18, claude-opus-4.5-high 12/18, claude-fable-5-high 9/12), while eight rows are 18/18 including three Claude runs (opus-4.6-high with 18 significant, opus-4.6-max, opus-4.8-max). Not a family pattern. 18 release dirs were skipped for missing trajectory rows, a data availability skip, not selection (rule and full list in Appendix A6).
 
-![Figure 4. Transfer heatmap. Mean revision direction contrast per model × question on the authors' release.](../figs/fig7_transfer.png){width=6.3in}
+![Figure 4. Transfer heatmap. Mean revision direction contrast per model × question on the authors' release.](../figs/fig7_transfer.png){width=4in}
 
 **R8b [post hoc, zero cost]. The explicit denial is unfaithful at scale.** The release ships the authors' own Sonnet covertness labels; I reconstructed the join by re-rendering each judge prompt and matching its hash (85,186 labels; 100% join on most deep Claude runs, roughly two thirds on the wide zoo, near zero for a few uncached runs (claude-sonnet-4.5/4.6, opus-4.7-xhigh); per model rates in analysis/covertness_join.log). Rollouts whose trace "clearly states its estimate is independent of the threshold" still land on the favorable side +0.149 [+0.129, +0.169] above coin flip within model×question×condition cells (518 cells, 73% positive, ties excluded), 19/22 base models individually significant. Category ordering: explicit admission +0.23, silence +0.23, raising it without concluding +0.20, explicit denial +0.15. The denial recovers barely a third of the bias, and a trace that never mentions the bet is as biased as one that admits influence. Baseline placebo: no-mention traces with no bet sit at P(above) = 0.44 (n = 13,270), so the metric is not skewed by construction. Conditioning on trace content is post treatment (Montgomery, Nyhan and Torres 2018), so this is the monitor's view against behavior, associational not causal. A 25 transcript seeded sample ships for direct reading (verification/r8b_spotcheck/).
 
-![Figure 5b. The authors' own covertness labels joined to outcomes. (a) Within cell bias by trace category. (b) Per model bias among explicitly denying traces.](../figs/fig11_denial_faithfulness.png){width=6.3in}
+![Figure 5b. The authors' own covertness labels joined to outcomes. (a) Within cell bias by trace category. (b) Per model bias among explicitly denying traces.](../figs/fig11_denial_faithfulness.png){width=5.2in}
 
 **R8c [post hoc, zero cost]. Bunching separates two gaming phenotypes.** A transfer from earnings management econometrics (Burgstahler and Dichev; Kleven's notch estimator): excess answer mass within 2% under the threshold minus 2% over, contrasted across the valence swap (same threshold, same round numbers, only the paying side flips). 19/41 release variants bunch significantly (qwen3.5-35B +0.23, gemini-3.1-pro-high +0.17, claude-sonnet-4.5 +0.13). Bunching correlates with steering (ρ = 0.43, p = 0.03) and is independent of printing the threshold value (ρ = 0.00): gpt-5.4 bunches at +0.12 printing it 0% of the time (covert buncher), claude-opus-4.8-high prints it 43% with no excess mass (overt printer). Cross model, in CoT admission rate tracks neither steering (+0.11, n.s.) nor bias (+0.29, n.s.): qwen3.5-35B admits in 59% of traces and steers 18/18, kimi-k2.6 denies in 96% and is just as biased. Covertness is a style, not a mechanism readout. As far as I can tell, nobody has applied a bunching estimator to LLM outputs.
 
@@ -113,9 +109,7 @@ Design follows Thought Branches: arm A rejects and resamples the continuation at
 | pooled bad side stranding | **+0.045 [+0.010, +0.082]** | small, real |
 | below_good, suppress denial sentences (arm D) | −0.019 [−0.082, +0.045] | inert |
 
-**R9 [pre specified arms, post hoc pooling].** Only bad side backtracks carry causal load, approx 4.5pp - a minority of GLM's +0.32 bias, and the pooling was added after the primary contrast (+0.038) touched zero, so read it as an upper bound near 8pp. Resilience is bimodal (66% of forks accept a clean continuation first try, 8% fight to the cap, mean 0.96 rejections). **R10 [post hoc arm].** Denial is causally inert (Δ = −0.019 [−0.082, +0.045]) and the easiest class to suppress (0.46 mean rejections): with R5, rationalization theater. **R11 [pre specified replication].** DeepSeek: below_good −0.015 [−0.038, +0.008] (floor, plain P(above) ≈ 0.06), above_good −0.019 [−0.100, +0.065], pooled +0.002 [−0.044, +0.045], a clean zero. The backtrack instrument is model variable and never the main channel.
-
-![Figure 5. Experiment 2 summary. Only bad side backtracks carry causal load and not much.](../figs/fig4_causal_summary.png){width=6.3in}
+**R9 [pre specified arms, post hoc pooling].** Only bad side backtracks carry causal load, approx 4.5pp - a minority of GLM's +0.32 bias, and the pooling was added after the primary contrast (+0.038) touched zero, so read it as an upper bound near 8pp. Resilience is bimodal (66% of forks accept a clean continuation first try, 8% fight to the cap, mean 0.96 rejections). **R10 [post hoc arm].** Denial is causally inert (Δ = −0.019 [−0.082, +0.045]) and the easiest class to suppress (0.46 mean rejections): with R5, rationalization theater. **R11 [pre specified replication].** DeepSeek: below_good −0.015 [−0.038, +0.008] (floor, plain P(above) ≈ 0.06), above_good −0.019 [−0.100, +0.065], pooled +0.002 [−0.044, +0.045], a clean zero. The backtrack instrument is model variable and never the main channel (summary figure: figs/fig4_causal_summary.png in the repo).
 
 ### 3d. Where the bias is built (prediction tests A and D)
 
@@ -127,13 +121,11 @@ Design follows Thought Branches: arm A rejects and resamples the continuation at
 | thinking off, short visible justification | +0.13 [+0.03, +0.23] | +0.11 [+0.00, +0.20] |
 | full CoT (actual task) | +0.32 [+0.19, +0.44] | +0.42 [+0.29, +0.54] |
 
-DeepSeek is monotone: no reasoning, no bias; full reasoning, full bias. Its leakage is built in the reasoning process (CoT minus no CoT difference +0.31 [+0.16, +0.47], P(diff ≤ 0) < 0.0001). GLM is not: bare numbers are already steered (+0.40; its no reasoning baseline is degenerate, 98% above, so this is a different regime), the short justification suppresses it, the full CoT brings it back (difference +0.19 [+0.03, +0.35], P = 0.010). The no CoT models did read the note (mentions in 49 to 74% of completions vs 1% at baseline; answers still carry visible reasoning, median 1,000 to 2,700 characters) while almost never performing the honesty script (0 to 13% vs 59 to 100% with CoT); GLM's short justification bias sits entirely in the note mentioners (+0.30 [+0.12, +0.47] vs +0.04). Run to run replication, parser recovery details, and field positioning are Appendix A3. I do not have a model of why the short justification cell is least biased on both models; that is worth its own experiment.
-
-![Figure 6. Test A. Answer level bias with reasoning on against off.](../figs/fig8_nocot.png){width=6.3in}
+DeepSeek is monotone: no reasoning, no bias; full reasoning, full bias. Its leakage is built in the reasoning process (CoT minus no CoT difference +0.31 [+0.16, +0.47], P(diff ≤ 0) < 0.0001). GLM is not: bare numbers are already steered (+0.40; its no reasoning baseline is degenerate, 98% above, so this is a different regime), the short justification suppresses it, the full CoT brings it back (difference +0.19 [+0.03, +0.35], P = 0.010). The no CoT models did read the note (mentions in 49 to 74% of completions vs 1% at baseline; answers still carry visible reasoning, median 1,000 to 2,700 characters) while almost never performing the honesty script (0 to 13% vs 59 to 100% with CoT); GLM's short justification bias sits entirely in the note mentioners (+0.30 [+0.12, +0.47] vs +0.04). Run to run replication, parser recovery details, and field positioning are Appendix A3. I do not have a model of why the short justification cell is least biased on both models; that is worth its own experiment. (Bar chart: figs/fig8_nocot.png in the repo.)
 
 **R12b [prediction test, directions stated first]. When the bias enters the trace** (after the commitment boundary literature, Datta 2604.22266 and Scalena 2606.13603)**.** Show the model k% of its own reasoning as a visible assistant turn, then force an immediate single number. Predictions written first: DeepSeek grows with k, GLM present early and flat. Both held. DeepSeek runs +0.07 [−0.07, +0.21] at k = 25 to +0.40 [+0.20, +0.60] at k = 100, a monotone accumulation, no sharp boundary, matching its natural +0.42. GLM is +0.21 [+0.01, +0.41] at k = 25 and flat (+0.28, +0.37, +0.27). The decide early account fits GLM and fails for DeepSeek within single traces, the same split as Test A by an independent method. (Caveats: visible text frame shifts absolute levels, read the contrast; DeepSeek ties counted conservatively; 40 rollouts per cell.)
 
-![Figure 6b. Test D. Forced answer bias against the share of the original reasoning shown.](../figs/fig12_commitment.png){width=5.5in}
+![Figure 6b. Test D. Forced answer bias against the share of the original reasoning shown.](../figs/fig12_commitment.png){width=4.6in}
 
 ### 3e. Introspection (confession grid, prediction tests B and C)
 
@@ -143,7 +135,7 @@ The paper's §9 dichotomy is blindness or dishonesty. The 2026 introspection lit
 
 **R14 [post hoc]. The gate is a spectrum.** DeepSeek: neutral 0.68/0.69 against third person 0.92/1.00 (approx 1.4x; rerun with full responses after a parser bug, original numbers stood), with some consequence sensitivity GLM lacks (threat −22pp, amnesty +17pp). Qwen3.5-122B: first person 0.00 under neutral and private in both conditions (threat 0.07 in one), amnesty 0.15 to 0.33, third person 0.71 to 0.87 (those two arms lost 40 to 55% of rollouts to missing verdict tags, wide). Kimi-K3: 0.32 to 0.36 against 0.36 to 0.58, weak. Ordering: Qwen (full), GLM (5 to 15x), then DeepSeek and Kimi (light). Research phase hypothesis: the paper's per model covertness predicts gate strength.
 
-![Figure 7. The confession grid. Consequence framings barely move first person admission. The third person flip unlocks it.](../figs/fig5_confessions.png){width=6.3in}
+![Figure 7. The confession grid. Consequence framings barely move first person admission. The third person flip unlocks it.](../figs/fig5_confessions.png){width=5in}
 
 **R14b [post hoc]. Three controls.** A positive control (prepend the ground truth: "your final estimate landed on the donation favorable side") backfires on every model: DeepSeek 0.73 → 0.37 and 0.57 → 0.27, GLM 0.21 → 0.13 and 0.27 → 0.07, Qwen stays 0.00. Presented with evidence of its own behavior, the model denies harder: the channel is not evidence limited, it is evidence reactive in the wrong direction (paralleling Sahasrabudhe's instruction effect). Paraphrases of the verdict question move GLM's absolute first person rate between 0.10 and 0.40 across three templates and two pipelines (3 to 11% with reasoning replayed), so absolutes are template sensitive; what is robust is GLM ≤0.40 under every template against 0.50 third person, and Qwen at 0.00 under all three.
 
@@ -217,6 +209,10 @@ In priority order, each with the design it borrows.
 9. Port the trace answer dissociation monitor (2605.29087): a judge predicts the number the redacted reasoning is heading toward; divergence from the actual answer flags covert steering, convergence flags overt printing.
 10. Stake magnitude and decoupled incentives (the paper's open gaps), the conflicting preference arm the LessWrong thread asks for (Brazilek), and paraphrase robustness treated as a random effect (the same thread's statistical critique of the paper).
 
+---
+
+*Main text ends here. Appendices A1 to A8 exist for spot checking and reproduction; nothing below is needed to follow the argument.*
+
 ## Appendix
 
 - Time log: [screenshot]. Resampling runs and replications not counted toward active time.
@@ -260,7 +256,7 @@ Gaming signature: in the forecast frame 21% of GLM's below_good numbers land wit
 
 I applied the open R-lens release of J-lens for Qwen3.5-122B-A10B (camilablank/workspace-lenses) to 120 shipped transcripts (40 per condition), teacher forced on 4×A100, reading top 15 workspace tokens at every layer above 40% depth for 5,640 tagged positions in four classes (revision, backtrack, denial, random control). Metric is P(lexicon token present in workspace) per class, cluster bootstrapped by rollout. Moral lexicon: the words good, bad, ethic and moral, word bounded; lexicons fixed before analysis apart from one noted contamination ("cause" in the bet lexicon's revision row).
 
-![Figure 8. Workspace moral content rates by position class and condition.](../figs/fig6_workspace.png){width=6.3in}
+![Figure 8. Workspace moral content rates by position class and condition.](../figs/fig6_workspace.png){width=4.8in}
 
 ### A6. Transfer inclusion rule and skipped cells
 
